@@ -1,6 +1,6 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno.text-uppercase(:titulo="'unidad 1. Conceptos y fuentes del Derecho Civil'" :subTitulo="'3. Diferenciación entre personas naturales y jurídicas'")
+  BannerInterno.text-uppercase(:titulo="'unidad 1. Introducción al trabajo en modalidad virtual'" :subTitulo="'3. Diferenciación entre personas naturales y jurídicas'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.tema-3
     .row.mb-5
       .col-12.col-xl-7.col-xxl-8.d-flex.align-items-center

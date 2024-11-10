@@ -1,6 +1,6 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno.text-uppercase(:titulo="'unidad 1. Conceptos y fuentes del Derecho Civil'" :subTitulo="'1. Conceptos y fuentes del Derecho Civil'")
+  BannerInterno.text-uppercase(:titulo="'unidad 1. Introducción al trabajo en modalidad virtual'" :subTitulo="'1. Introducción al aprendizaje en línea'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
     .row.mb-5
       .d-none.d-xl-block.col-4.px-0
@@ -42,7 +42,7 @@
           .row.p-4.px-md-5.py-lg-5.justify-content-between
             .col-md-12.col-lg-7.mb-4.mb-md-0
               p.text-bold Flexibilidad 
-              p(data-aos="fade-up") El aprendizaje en línea ofrece la ventaja de acceder a los contenidos en el momento y lugar preferido, ideal para quienes tienen compromisos laborales o personales que dificultan la asistencia a clases presenciales. Bates (2015) menciona que "la flexibilidad del aprendizaje en línea permite que los estudiantes organicen su tiempo de acuerdo con sus necesidades". Además, Moore y Kearsley (2012) indican que "<strong>el aprendizaje en línea elimina barreras físicas y geográficas</strong>".
+              p El aprendizaje en línea ofrece la ventaja de acceder a los contenidos en el momento y lugar preferido, ideal para quienes tienen compromisos laborales o personales que dificultan la asistencia a clases presenciales. Bates (2015) menciona que "la flexibilidad del aprendizaje en línea permite que los estudiantes organicen su tiempo de acuerdo con sus necesidades". Además, Moore y Kearsley (2012) indican que "<strong>el aprendizaje en línea elimina barreras físicas y geográficas</strong>".
             .d-none.d-lg-block.col-md-6.col-lg-4
               figure
                 img(src='@/assets/curso/unidad1/img-14.svg', alt='Texto que describa la imagen')
@@ -116,7 +116,7 @@
 
     #t_1_3.titulo-segundo.color-secundario
       h1 1.3 Interacción en entornos de aprendizaje en línea
-    p.mb-4 Uno de los principales desafíos del aprendizaje en línea es mantener una interacción significativa entre los participantes. A continuación, se describen las formas más relevantes de interacción en los entornos de e-learning:
+    p.mb-5 Uno de los principales desafíos del aprendizaje en línea es mantener una interacción significativa entre los participantes. A continuación, se describen las formas más relevantes de interacción en los entornos de e-learning:
     
     .row.mb-5.mb-4
       .col-12.col-lg-7
@@ -132,7 +132,7 @@
     
     #t_1_4.titulo-segundo.color-secundario
       h1 1.4 Tecnologías para el aprendizaje en línea
-    p.mb-4 El éxito del aprendizaje en línea depende en gran medida de las plataformas y herramientas tecnológicas disponibles. Entre las tecnologías más utilizadas, se destacan:
+    p.mb-5 El éxito del aprendizaje en línea depende en gran medida de las plataformas y herramientas tecnológicas disponibles. Entre las tecnologías más utilizadas, se destacan:
 
     .row.mb-5.mb-4
       .col-12.col-lg-5.d-none.d-lg-block
@@ -192,17 +192,17 @@
             .custom-image-card.d-flex.justify-content-center.flex-column.p-4.py-md-5.h-100
               img.mx-auto.mb-4.mb-xl-5(src='@/assets/curso/unidad1/img-28.svg', style="width: 80px")
               p.text-bold.mb-4.text-center Gestión del tiempo
-              p.px-4.text-small.mb-0.d-flex.text-center La flexibilidad del e-learning puede resultar un arma de doble filo. Los estudiantes que no administran bien su tiempo pueden enfrentar retrasos o incumplir fechas de entrega, lo que impacta negativamente en su rendimiento académico. La autodisciplina se convierte en un factor crucial para mantener el ritmo de estudio adecuado. 
+              p.px-1.text-small.mb-0.d-flex.text-center La flexibilidad del e-learning puede resultar un arma de doble filo. Los estudiantes que no administran bien su tiempo pueden enfrentar retrasos o incumplir fechas de entrega, lo que impacta negativamente en su rendimiento académico. La autodisciplina se convierte en un factor crucial para mantener el ritmo de estudio adecuado. 
           .col-10.col-md-8.col-lg-6.col-xl-4.mb-4.mb-xl-0
             .custom-image-card.d-flex.justify-content-center.flex-column.p-4.py-md-5.h-100
               img.mx-auto.mb-4.mb-xl-5(src='@/assets/curso/unidad1/img-29.svg', style="width: 80px")
               p.text-bold.mb-4.text-center Falta de interacción física
-              p.px-4.text-small.mb-0.d-flex.text-center La ausencia de contacto presencial puede generar una sensación de aislamiento en algunos estudiantes. Aunque las herramientas tecnológicas facilitan la comunicación, la interacción cara a cara sigue siendo valiosa para muchos aspectos de la educación, como la construcción de relaciones y el desarrollo de habilidades sociales.
+              p.px-1.text-small.mb-0.d-flex.text-center La ausencia de contacto presencial puede generar una sensación de aislamiento en algunos estudiantes. Aunque las herramientas tecnológicas facilitan la comunicación, la interacción cara a cara sigue siendo valiosa para muchos aspectos de la educación, como la construcción de relaciones y el desarrollo de habilidades sociales.
           .col-10.col-md-8.col-lg-6.col-xl-4
             .custom-image-card.d-flex.justify-content-center.flex-column.p-4.py-md-5.h-100
               img.mx-auto.mb-4.mb-xl-5(src='@/assets/curso/unidad1/img-30.svg', style="width: 80px")
               p.text-bold.mb-4.text-center Brecha digital
-              p.px-4.text-small.mb-0.d-flex.text-center No todos los estudiantes cuentan con una conexión a internet de calidad o con dispositivos adecuados para participar en el aprendizaje en línea. Esta desigualdad tecnológica puede limitar el acceso equitativo a la educación, acentuando las diferencias socioeconómicas y limitando la inclusión de todos los estudiantes en el entorno virtual. 
+              p.px-1.text-small.mb-0.d-flex.text-center No todos los estudiantes cuentan con una conexión a internet de calidad o con dispositivos adecuados para participar en el aprendizaje en línea. Esta desigualdad tecnológica puede limitar el acceso equitativo a la educación, acentuando las diferencias socioeconómicas y limitando la inclusión de todos los estudiantes en el entorno virtual. 
 
         #t_1_7.titulo-segundo.color-secundario    
           h1 1.7 Tendencias actuales y futuras en el aprendizaje en línea
@@ -215,7 +215,7 @@
           .row.p-4.px-md-5.py-lg-5.justify-content-between
             .col-md-12.col-lg-7.mb-4.mb-md-0
               p.text-bold Gamificación 
-              p(data-aos="fade-up") Este enfoque incorpora elementos de juegos, como la obtención de puntos, medallas y recompensas, para motivar a los estudiantes y hacer el aprendizaje más entretenido. Al introducir dinámicas lúdicas, se incrementa la participación y el compromiso, transformando el proceso educativo en una experiencia más atractiva.
+              p Este enfoque incorpora elementos de juegos, como la obtención de puntos, medallas y recompensas, para motivar a los estudiantes y hacer el aprendizaje más entretenido. Al introducir dinámicas lúdicas, se incrementa la participación y el compromiso, transformando el proceso educativo en una experiencia más atractiva.
             .d-none.d-lg-block.col-md-6.col-lg-4
               figure
                 img(src='@/assets/curso/unidad1/img-31.png', alt='Texto que describa la imagen')

@@ -1,6 +1,6 @@
 <template lang="pug">
 .curso-main-container.introduccion
-  BannerInterno(titulo="unidad 1. Conceptos y fuentes del Derecho Civil" subTitulo="INTRODUCCIÓN")
+  BannerInterno(titulo="unidad 1. Introducción al trabajo en modalidad virtual" subTitulo="INTRODUCCIÓN")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
 
     .row.mb-5.pb-3

@@ -34,22 +34,121 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1.',
-        titulo: 'Conceptos y fuentes del Derecho Civil',
+        titulo: 'Introducción al aprendizaje en línea',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.1',
+            titulo: 'Características del aprendizaje en línea',
+            hash: 't_1_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo: 'Modalidades del aprendizaje en línea',
+            hash: 't_1_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.3',
+            titulo: 'Interacción en entornos de aprendizaje en línea',
+            hash: 't_1_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.4',
+            titulo: 'Tecnologías para el aprendizaje en línea',
+            hash: 't_1_4',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.5',
+            titulo: 'Ventajas del aprendizaje en línea',
+            hash: 't_1_5',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.6',
+            titulo: 'Desafíos del aprendizaje en línea',
+            hash: 't_1_6',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.7',
+            titulo: 'Tendencias actuales y futuras en el aprendizaje en línea',
+            hash: 't_1_7',
+          },
+        ],
       },
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2.',
-        titulo: 'Fuentes del Derecho Civil',
+        titulo: 'Introducción al aprendizaje en línea',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.1',
+            titulo: 'Plataformas de gestión del aprendizaje (LMS)',
+            hash: 't_2_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.2',
+            titulo: 'Herramientas de comunicación y colaboración',
+            hash: 't_2_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.3',
+            titulo: 'Herramientas para la creación de contenido digital',
+            hash: 't_2_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.4',
+            titulo: 'Herramientas de evaluación en línea',
+            hash: 't_2_4',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3.',
-        titulo: 'Diferenciación entre personas naturales y jurídicas',
+        titulo:
+          'Gestión del tiempo y organización personal en la modalidad virtual',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.1',
+            titulo: 'Principios fundamentales de la gestión del tiempo',
+            hash: 't_3_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.2',
+            titulo:
+              'Planificación y organización de tareas en entornos virtuales',
+            hash: 't_3_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.3',
+            titulo:
+              'Equilibrio entre la vida personal y profesional/estudiantil en la modalidad virtual',
+            hash: 't_3_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.4',
+            titulo: 'Estrategias para evitar la procrastinación',
+            hash: 't_3_4',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -77,12 +176,12 @@ export default {
       {
         icono: 'fas fa-file-download',
         titulo: 'Descargar PDF',
-        download: 'downloads/Programa_Derecho_Civil_Unidad_1.pdf',
+        download: 'downloads/Unidad 1__Competencias digitales.pdf',
       },
       {
         icono: 'fas fa-download',
         titulo: 'Descargar material',
-        download: 'downloads/Anexo_Tipos_de_fuentes.pdf',
+        download: 'downloads/material.zip',
       },
       {
         icono: 'far fa-registered',
@@ -94,121 +193,177 @@ export default {
   referencias: [
     {
       referencia:
-        'Chavarro Cadena, J. E. (Dir.) & Chavarro Moreno, C. L. (Il.). (2020). Código Civil: (3 ed.). Grupo Editorial Nueva Legislación SAS.',
+        'Bates, T. (2015). Teaching in a digital age: Guidelines for designing teaching and learning. BCcampus.',
     },
     {
       referencia:
-        'Chinchilla, C (2019). El rol del Derecho Romano en la formación del civilista: el caso del Derecho contractual. Revista estudiantil de Derecho Privado, 2.',
+        'Bautista Pérez, G., Forés Miravalles, A., & Borges Sáiz, F. (2016). Didáctica universitaria en entornos virtuales de enseñanza-aprendizaje. Narcea Ediciones.',
     },
     {
-      referencia: 'Corte Constitucional',
-    },
-    {
-      referencia:
-        'Hinestrosa, F. (2021). El desarrollo doctrinario del derecho civil. Revista De Derecho Privado, 41, 7-17',
-    },
-    {
-      referencia: 'Corte Constitucional (2018) T-241/2018',
-      link:
-        'https://www.corteconstitucional.gov.co/relatoria/2018/t-241-18.htm',
+      referencia: 'Bustinduy, I. (2015). La gestión del tiempo. Editorial UOC.',
     },
     {
       referencia:
-        'Ortiz Monsalve, A. & Valencia Zea, A. (2021). Derecho civil: parte general y personas Tomo I. Editorial Temis.',
+        'Cenich, G. (2006). Propuesta de aprendizaje basado en proyecto y trabajo colaborativo: experiencia de un curso en línea. Red Revista Electrónica de Investigación Educativa.',
     },
     {
       referencia:
-        'Medina Pabón Juan Enrique, & Bibliotecaebook. (n.d.). Derecho Civil. Aproximación al Derecho. Derecho de personas 5 edición. Derecho Civil. Aproximación Al Derecho. Derecho de Personas 5 Edición',
+        'García, L. (2019). Productividad y gestión del tiempo: Principios y técnicas efectivas.',
+    },
+    {
+      referencia:
+        'Moore, M. G., & Kearsley, G. (2012). Distance education: A systems view of online learning (3rd ed.). Wadsworth Cengage Learning.',
+    },
+    {
+      referencia:
+        "O'Driscoll, A., & Kaye, P. (2019). Los sistemas de gestión de aprendizaje: Modernización educativa y acceso eficiente al contenido. Editorial ABC.",
+    },
+    {
+      referencia:
+        'Organización para la Cooperación y el Desarrollo Económicos (OCDE). (2017). Manual para entornos de aprendizaje innovadores. Editorial UOC.',
+    },
+    {
+      referencia:
+        'Pedraza, M. A. (2009). Los entornos virtuales de enseñanza-aprendizaje: propuesta pedagógica. El Cid Editor | Apuntes.',
+    },
+    {
+      referencia:
+        'Quijada Monroy, V. del C. (2014). Aprendizaje virtual. Editorial Digital UNID.',
+    },
+    {
+      referencia:
+        'Ramos Ramos, P. (2014). Gestión del tiempo y planificación de tareas (2a ed.). Editorial ICB.',
+    },
+    {
+      referencia:
+        'Ruiz Ospino, E. A., & Sánchez Fontalvo, I. M. (2019). ¿Qué piensan los profesores universitarios de los estilos de aprendizaje?. Editorial Unimagdalena.',
+    },
+    {
+      referencia:
+        'Salmon, G. (2013). Moderación electrónica: la clave para la enseñanza y el aprendizaje en línea.',
+    },
+    {
+      referencia:
+        'Sangrà Morer, A., & Girona Campillo, C. (2013). Los materiales de aprendizaje en contextos educativos virtuales: pautas para el diseño tecnopedagógico. Editorial UOC.',
+    },
+    {
+      referencia:
+        'Torres Quiñones, A. (2015). La construcción de las estrategias de aprendizaje en la formación inicial del profesional de la educación desde los entornos virtuales de aprendizaje. Editorial Universitaria.',
     },
   ],
   glosario: [
     {
-      termino: 'Capacidad de obrar',
+      termino: 'Asincrónico',
       significado:
-        'Es la aptitud de una persona para realizar válidamente actos jurídicos por sí misma. Está relacionada con la posibilidad de ejercer derechos y cumplir obligaciones de forma autónoma. Generalmente se alcanza con la mayoría de edad.',
+        'Modalidad de aprendizaje en la que los estudiantes no requieren estar conectados al mismo tiempo, permitiendo mayor flexibilidad en sus horarios',
     },
     {
-      termino: 'Capacidad jurídica',
+      termino: 'Brecha digital',
       significado:
-        'Es la aptitud general para ser titular de derechos y obligaciones desde el nacimiento hasta la muerte. A diferencia de la capacidad de obrar, toda persona natural la posee desde que nace, o en el caso de las personas jurídicas, se posee desde su creación.',
+        'Desigualdad en el acceso a recursos tecnológicos como internet o dispositivos adecuados, lo que limita la participación en el aprendizaje en línea',
     },
     {
-      termino: 'Código Civil',
+      termino: 'e-learning',
       significado:
-        'Es el conjunto de normas jurídicas que regulan las relaciones privadas entre las personas, abarcando aspectos como los derechos y deberes de los ciudadanos, la propiedad, los contratos, las obligaciones, las sucesiones, entre otros.',
+        'Modalidad educativa que utiliza tecnologías digitales e internet para impartir conocimientos, eliminando barreras geográficas y temporales, ofreciendo flexibilidad y accesibilidad a los estudiantes',
     },
     {
-      termino: 'Derecho de Bienes y obligaciones',
+      termino: 'Flexibilidad',
       significado:
-        'Es la rama del derecho civil que se ocupa de regular la adquisición, uso, disfrute y disposición de los bienes, así como las relaciones jurídicas que generan obligaciones entre las personas, como contratos y deudas.',
+        'Capacidad del aprendizaje en línea para permitir a los estudiantes acceder a los contenidos en cualquier momento y desde cualquier lugar',
     },
     {
-      termino: 'Derecho de Familia',
+      termino: 'Gamificación',
       significado:
-        'Es el conjunto de normas que regula las relaciones jurídicas entre los miembros de una familia, como el matrimonio, la filiación, la patria potestad, la tutela, el divorcio, entre otros aspectos relacionados con la vida familiar.',
+        'Uso de elementos de juego (puntos, recompensas) en el aprendizaje para motivar y enganchar a los estudiantes',
     },
     {
-      termino: 'Derecho de Personas',
+      termino: 'Gestión del tiempo',
       significado:
-        'Es la parte del derecho civil que se encarga de regular el estado civil, la capacidad, los derechos fundamentales y la personalidad jurídica de los individuos.',
+        'Capacidad para planificar y controlar cómo se dividen las horas de trabajo o estudio para aumentar la eficiencia y productividad',
     },
     {
-      termino: 'Derecho Privado',
+      termino: 'Grabación de sesiones',
       significado:
-        'Es la rama del derecho que regula las relaciones entre particulares, es decir, entre personas naturales o jurídicas en su calidad de sujetos de derechos privados. Incluye el derecho civil y el derecho mercantil.',
+        'Funcionalidad de las plataformas de videoconferencia que permite registrar reuniones o clases para su revisión posterior',
     },
     {
-      termino: 'Derecho de Sucesiones',
+      termino: 'Google Drive',
       significado:
-        'Es la rama del derecho civil que regula la transmisión de los bienes, derechos y obligaciones de una persona fallecida a sus herederos o legatarios.',
+        'Plataforma de almacenamiento en la nube que permite compartir archivos y colaborar en tiempo real en documentos, hojas de cálculo y presentaciones',
     },
     {
-      termino: 'Estado civil',
+      termino: 'Ley de Pareto (80/20)',
       significado:
-        'Es la situación particular de una persona en cuanto a su posición dentro del derecho de familia. El estado civil incluye categorías como soltero, casado, viudo o divorciado.',
+        'Principio que afirma que el 80% de los resultados proviene del 20% del esfuerzo, sugiriendo centrarse en las actividades más importantes',
     },
     {
-      termino: 'Fuentes del derecho',
+      termino: 'Matriz de Eisenhower',
       significado:
-        'Son los orígenes o los mecanismos a través de los cuales se crean, modifican o extinguen las normas jurídicas. Entre las principales fuentes del derecho están la ley, la costumbre, la jurisprudencia y los principios generales del derecho.',
+        'Herramienta para priorizar tareas según su urgencia e importancia, organizándolas en cuatro cuadrantes',
     },
     {
-      termino: 'Persona Jurídica',
+      termino: 'Picos de productividad',
       significado:
-        'Ente de creación legal o ficticio capaz de tener derechos y obligaciones, que actúa como una entidad distinta de las personas que la integran.',
+        'Momentos del día en los que una persona tiene mayor energía y enfoque, lo que permite realizar tareas más demandantes de manera más eficiente',
     },
     {
-      termino: 'Persona Natural',
+      termino: 'Plataforma LMS',
       significado:
-        'Es el ser humano considerado individualmente como sujeto de derechos y obligaciones desde su nacimiento hasta su muerte.',
+        'Sistema de gestión del aprendizaje que centraliza la distribución de contenido, la interacción y la evaluación en línea (ej., Moodle, Blackboard)',
     },
     {
-      termino: 'MoodBoard',
+      termino: 'Procrastinación',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'Acción de posponer tareas importantes, lo que afecta negativamente la productividad en entornos virtuales',
+    },
+    {
+      termino: 'Técnica del Pomodoro',
+      significado:
+        'Método de gestión del tiempo que divide el trabajo en intervalos de 25 minutos, seguidos de breves descansos, para mejorar la concentración',
+    },
+    {
+      termino: 'Sincrónico',
+      significado:
+        'Modalidad de aprendizaje en la que estudiantes y profesores interactúan en tiempo real a través de herramientas como videoconferencias',
+    },
+    {
+      termino: 'Slack',
+      significado:
+        'Plataforma de mensajería diseñada para equipos, que facilita la comunicación mediante la creación de canales temáticos y organizados',
+    },
+    {
+      termino: 'Trello',
+      significado:
+        'Herramienta de gestión de proyectos basada en el método Kanban, que permite organizar y visualizar tareas mediante tableros',
+    },
+    {
+      termino: 'Videoconferencia',
+      significado:
+        'Herramienta que permite la interacción en tiempo real entre personas mediante video y audio, simulando una reunión presencial en entornos virtuales',
     },
   ],
   complementario: [
     {
-      tema: 'Estrategias para la segmentación de mercados',
+      tema: 'Plataformas LMS',
       referencia:
-        'Cámara de Comercio de Medellín. (2020). <em>Suftware</em> Tendencias de negocios - Mercadeo y ventas',
+        'FutureED. [Youtube]. (2020, Agosto 5). ¿Qué es un LMS y qué ventajas tiene utilizar una plataforma LMS?. [Archivo de video]',
       tipo: 'Video',
-      link: 'https://www.google.com/',
+      link: 'https://www.youtube.com/watch?v=Z7I6dEY8hGA',
     },
     {
-      tema: 'Estrategias para la segmentación de mercados',
+      tema: 'Herramientas colaborativas',
       referencia:
-        'Cámara de Comercio de Medellín. (2020). <em>Suftware</em> Tendencias de negocios - Mercadeo y ventas',
+        'Marketing4eCommerce. [Youtube]. (2023, Marzo 30). Herramientas colaborativas: qué son y por qué han revolucionado la forma de trabajar. [Archivo de video]',
       tipo: 'Video',
-      link: 'https://www.google.com/',
+      link: 'https://www.youtube.com/watch?v=ftAzRtcKaDU',
     },
     {
-      tema: 'Estrategias para la segmentación de mercados',
+      tema: 'Gestión del tiempo',
       referencia:
-        'Cámara de Comercio de Medellín. (2020). <em>Suftware</em> Tendencias de negocios - Mercadeo y ventas',
+        'Sumo Primero en Terreno. [Youtube]. (2020, Mayo 19). Gestión del Tiempo - Línea Liderazgo Escolar. [Archivo de video]',
       tipo: 'Video',
-      link: 'https://www.google.com/',
+      link: 'https://www.youtube.com/watch?v=haHoaG_8NZo',
     },
   ],
   creditos: [

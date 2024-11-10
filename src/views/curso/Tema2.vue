@@ -1,6 +1,6 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno.text-uppercase(:titulo="'unidad 1. Conceptos y fuentes del Derecho Civil'" :subTitulo="'2. Fuentes del Derecho Civil     '")
+  BannerInterno.text-uppercase(:titulo="'unidad 1. Introducción al trabajo en modalidad virtual'" :subTitulo="'2. Introducción al aprendizaje en línea'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
     .row.bg-fondo-3.bg-full-width
@@ -94,7 +94,7 @@
               img.mx-auto.mb-4(src='@/assets/curso/unidad1/img-42.png', style="width: 80px")
               p.text-bold.mb-4.text-center Canvas
               p.px-3.text-small.mb-0.d-flex.text-center Se destaca por su diseño moderno e intuitivo, brindando una experiencia de usuario fluida y permitiendo una fácil integración con otras herramientas educativas.
-    .row.mb-5
+    .row.mb-3
       h1 Beneficios del uso de LMS
     .row.mb-5
       .col-12.col-xl-8.d-flex.align-items-center.bg-ppal-morado-claro.p-4
@@ -132,7 +132,7 @@
       p Las herramientas de gestión de proyectos ayudan a organizar el trabajo en equipo, asignar tareas y mantener un control de los plazos:
 
   
-        .row.mb-5
+        .row.mb-4
           TabsC.color-primario
             .tabs-content.border.px-4.p-md-5.py-3(titulo="Trello")
               .row
@@ -160,27 +160,26 @@
                   p Una herramienta integral que combina notas, tareas, bases de datos y calendarios en un único espacio colaborativo, lo que la hace muy versátil (Bautista et al., 2016).
     .row.bg-fondo-4.bg-full-width
       div.px-5.pb-md-3.py-4
-        .row.mb-5
+        .row.mb-4
           h1 Aplicaciones de almacenamiento en la nube
           p El almacenamiento en la nube facilita la colaboración en tiempo real, permitiendo compartir archivos sin necesidad de enviarlos por correo.
-          p.text-bold A continuación se describen algunas de las herramientas de almacenamiento en la nube más utilizadas en la actualidad:
+          p.mb-0.text-bold A continuación se describen algunas de las herramientas de almacenamiento en la nube más utilizadas en la actualidad:
         .row.mb-5.justify-content-center.align-items-stretch
-          p.text-bold Los ejemplos de LMS: 
           .col-10.col-md-8.col-lg-6.col-xl-4.mb-4.mb-xl-0
             .custom-image-card.d-flex.justify-content-center.flex-column.p-4.py-md-5.h-100
               img.mx-auto.mb-4(src='@/assets/curso/unidad1/img-50.png', style="width: 80px")
               p.text-bold.mb-4.text-center Google Drive
-              p.px-4.text-small.mb-0.d-flex.text-center Proporciona almacenamiento gratuito y herramientas como Google Docs, Sheets y Slides, que facilitan la creación y edición de documentos en línea.
+              p.px-2.text-small.mb-0.d-flex.text-center Proporciona almacenamiento gratuito y herramientas como Google Docs, Sheets y Slides, que facilitan la creación y edición de documentos en línea.
           .col-10.col-md-8.col-lg-6.col-xl-4.mb-4.mb-xl-0
             .custom-image-card.d-flex.justify-content-center.flex-column.p-4.py-md-5.h-100
               img.mx-auto.mb-4(src='@/assets/curso/unidad1/img-51.png', style="width: 80px")
               p.text-bold.mb-4.text-center Dropbox
-              p.px-4.text-small.mb-0.d-flex.text-center Reconocido por su simplicidad para compartir y sincronizar archivos en diferentes dispositivos, lo que facilita la colaboración.
+              p.px-2.text-small.mb-0.d-flex.text-center Reconocido por su simplicidad para compartir y sincronizar archivos en diferentes dispositivos, lo que facilita la colaboración.
           .col-10.col-md-8.col-lg-6.col-xl-4
             .custom-image-card.d-flex.justify-content-center.flex-column.p-4.py-md-5.h-100
               img.mx-auto.mb-4(src='@/assets/curso/unidad1/img-52.png', style="width: 80px")
               p.text-bold.mb-4.text-center OneDrive
-              p.px-3.text-small.mb-0.d-flex.text-center Integrado con Microsoft Office, permite trabajar de manera colaborativa en documentos y facilita la sincronización de archivos en la nube.
+              p.px-2.text-small.mb-0.d-flex.text-center Integrado con Microsoft Office, permite trabajar de manera colaborativa en documentos y facilita la sincronización de archivos en la nube.
     .row.mb-5
       p Estas herramientas son fundamentales para mantener una comunicación efectiva y organizar el trabajo en entornos virtuales, permitiendo una colaboración fluida y eficiente.
 
@@ -218,7 +217,7 @@
       .d-none.d-md-flex.col-6.col-md-4.col-lg-3.p-3.p-md-4.p-lg-5.mx-auto.justify-content-center.border-left-gray
         img.my-auto(:style="{'max-width': '115px  '}" src='@/assets/curso/unidad1/img-54.png', alt='Texto que describa la imagen')
     
-    .row.mb-5
+    .row.mb-4
       p.text-bold Las herramientas para la creación de videos y edición multimedia son: 
 
     .row.mb-5
@@ -241,7 +240,7 @@
       .d-none.d-xl-block.col-5.px-0
         img.h-100(src='@/assets/curso/unidad1/img-55.png', alt='Texto que describa la imagen')
     
-    .row.mb-5
+    .row.mb-0
       p Estas herramientas permiten a los usuarios crear contenidos visuales y educativos de forma colaborativa y eficiente, contribuyendo a una mejor comunicación de ideas en el entorno digital.
 
     .row.bg-fondo-3.bg-full-width
@@ -249,16 +248,16 @@
         #t_2_4.titulo-segundo.color-secundario
           h1.mb-4 2.4 Herramientas de evaluación en línea
 
-        .row.mb-5.pb-3
+        .row.mb-4
           .col-12.col-xl-7.col-xxl-8.d-flex.align-items-center
-            div.d-flex.align-items-start.bg-ppal-morado-oscuro.px-3.py-4
+            div.d-flex.align-items-start.bg-ppal-morado-oscuro.px-3.py-4.py-xxl-5.mb-auto
               img.me-3(style="width: 90px" src='@/assets/curso/unidad1/img-56.svg', alt='Texto que describa la imagen')
               p.pe-xl-3.fs-18px.mb-0(data-aos="fade-up") La evaluación es un aspecto crucial en el aprendizaje y el trabajo colaborativo en entornos virtuales. Existen diversas herramientas diseñadas para facilitar la creación y administración de exámenes, encuestas y evaluaciones formativas, lo que permite una mejor medición del progreso de los estudiantes y su comprensión de los contenidos. A continuación, se destacan algunas de estas herramientas:
           .d-none.d-xl-block.col-xl-5.col-xxl-4.mx-auto.mt-4.mt-xl-0
             img.h-100(src='@/assets/curso/unidad1/img-57.png', alt='Texto que describa la imagen')  
 
-        p Las herramientas de evaluación automática son: 
-        .row.mb-5
+          p.mt-4.mt-xl-0 Las herramientas de evaluación automática son: 
+        .row.mb-5.justify-content-center
           .col-10.col-md-8.col-lg-6.col-xl-4.mb-4.mb-xl-0
             .custom-image-card.d-flex.justify-content-center.flex-column.p-4.py-md-5.h-100
               img.mx-auto.mb-4(src='@/assets/curso/unidad1/img-58.png', style="width: 80px")
