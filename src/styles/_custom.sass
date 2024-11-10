@@ -11,15 +11,6 @@
     top: 51%
     right: 30%
 
-
-.home-main-title
-  font-size: 18px
-  font-weight: 700
-
-.home-title
-  font-size: 38px !important
-  font-weight: 900 !important
-
 @keyframes float1
   0%
     transform: translateY(20px)
@@ -27,47 +18,38 @@
   100%
     transform: translateY(0px)
 
-.iniciar-btn-container
-  .iniciar-btn-text
-    transition: all 0.4s ease-in-out
-    background-color: #1172B3 !important
-    color: white !important
-  .icon
-    transition: all 0.4s ease-in-out
-    background-color: #083E61 !important
-  &:hover
-    .iniciar-btn-text
-      background-color: #083E61 !important
-      color: white !important
-    .icon
-      background-color: #1172B3 !important
-      color: white !important
-
-.home-main-title
-  color: #E5782C !important
 .banner-interno__fondo
-  background-color: #CEE2EF!important
+  background-color: #E6B9F9!important
 
 .bg-ppal-claro
-  background-color: #F7F4ED
+  background-color: #D3F9EF !important
+.bg-ppal
+  background-color: #BDF7E7 !important
+.bg-oscuro
+  background-color: #0B4434 !important
+
 .bg-ppal-azul
   background-color: #E5F0F6
+.bg-ppal-azul-claro
+  background-color: #F5F7FB
 .bg-ppal-azul-oscuro
   background-color: #D9EEFD
-.bg-ppal-azul-primary
-  background-color: #1172B3
+.bg-azul-1
+  background-color: #E2E9F3
 
-.px-34px
-  padding-left: 34px
-  padding-right: 34px
-.py-30px
-  padding-top: 30px
-  padding-bottom: 30px
+.bg-ppal-morado-claro
+  background-color: #F9DAFA
+.bg-ppal-morado-oscuro
+  background-color: #F2DBFC
+
+.bg-ppal-amarillo
+  background-color: #FDF2D5
+
 .align-self-base
   align-self: baseline
 
-.fs-18px
-  font-size: 18px
+.fs-14px
+  font-size: 14px
 .-mt-18px
   margin-top: -18px
 .box-shadow
@@ -85,16 +67,29 @@
 
 // ACORDEON
 .acordion__header
-  background-color: white !important
+  background-color: #FDF2D5 !important
 .acordion__contenido
-  background-color: #FBF6DB !important  
+  background-color: #FDF2D5 !important  
 .acordion__header--active
-  background-color: #F5EEC2 !important
+  background-color: #F8C234 !important
+
+// TABS
+.tabs-c__tab--active 
+  border-bottom-color: #E249E8 !important
 
 // BG FONDO
 .bg-fondo
   &-1
-    background-image: url("../assets/componentes/background-test.svg") !important
+    background-image: url("../assets/componentes/background-test.png") !important
+    background-position: top
+  &-2
+    background-image: url("../assets/curso/unidad1/background-2.svg") !important
+    background-position: top
+  &-3
+    background-image: url("../assets/curso/unidad1/background-3.svg") !important
+    background-position: top
+  &-4
+    background-image: url("../assets/curso/unidad1/background-4.svg") !important
     background-position: top
 .bg-full-width
   background-size: cover
@@ -106,10 +101,15 @@
 
 // BORDERS
 .border-bottom-app-1
-  border-bottom: 1px solid #D6CF9D
+  border-bottom: 1px solid $white
+.border-right-gray
+  border-right: 1px solid #D9D9D9
+.border-left-gray
+  border-left: 1px solid #D9D9D9
+
 
 // Variables
-$custom-card-border-radius: 0px
+$custom-card-border-radius: 8px
 $custom-card-shadow: 0 4px 8px rgba(0,0,0,0.1)
 $custom-card-text-bg: #FFF
 $custom-card-text-padding: 15px
@@ -131,3 +131,15 @@ $custom-card-img-height: 322px
 
 .cursor-pointer
   cursor: pointer
+
+.card_hover
+  .custom-image-card
+    transition: all 0.2s ease-in-out
+  .custom-image-card:hover
+    background-color: #6A2C83
+    p
+      color: $white !important
+
+.tema-3
+  .download-btn
+    background-color: #C252F0 !important

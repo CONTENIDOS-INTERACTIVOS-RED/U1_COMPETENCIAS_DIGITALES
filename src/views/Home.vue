@@ -19,12 +19,12 @@
             )
           //- Columna derecha con información
           .col-xl-6.info-section
-            .content-wrapper.px-lg-4.pt-lg-4.px-xl-4.py-xxl-5.text-start
-              p.home-main-title FUNDAMENTACIÓN JURÍDICA
-              h1.home-title.mb-4.text-uppercase Derecho Civil, General personas
-              p.fs-18px.descripcion.mb-4 El Derecho Civil, como una de las ramas principales del derecho privado, regula las relaciones entre individuos bajo el principio de igualdad jurídica. Esta disciplina establece un marco normativo que protege y organiza aspectos de la vida cotidiana, desde las relaciones familiares hasta las obligaciones contractuales. En esta unidad, se estudiarán los conceptos básicos del Derecho Civil, sus fuentes y la diferencia entre personas naturales y jurídicas, preparando al estudiante para comprender los principios fundamentales de esta área del derecho.
+            .content-wrapper.px-lg-4.pt-lg-4.px-xl-4.ps-xl-5.py-xxl-5.text-start
+              p.home-main-title.text-uppercase Unidad 1. Introducción al trabajo en modalidad virtual
+              h1.home-title.mb-4.mb-lg-5.text-uppercase Competencias Digitales
+              p.fs-18px.descripcion.mb-4 La unidad 1, “Competencias Digitales", en el contexto de aprendizaje virtual explora herramientas tecnológicas, gestión del tiempo y habilidades de autogestión. Los estudiantes desarrollan competencias para navegar eficazmente el e-learning, manejando plataformas como Moodle, Zoom y Google Docs, y aplicando estrategias de organización, como la técnica Pomodoro y listas de tareas. La unidad enfatiza flexibilidad, autonomía y manejo de desafíos en entornos digitales.
               
-              p.fs-18px.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold ¡Prepárate para comprender las bases del Derecho Civil y su impacto en la vida diaria!
+              p.fs-18px.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold ¡Adelante, cada herramienta y estrategia que dominen es un paso más hacia el éxito en el mundo digital!
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")
@@ -97,14 +97,12 @@ export default {
       text-align: center
       display: flex
       .iniciar-btn-text
-        background-color: $color-sistema-d
+        background-color: #C252F0
         padding: 12px 42px 12px 32px
         width: 100%
-        color: #fff
     .icon
       background-color: $color-sistema-e
       padding: 0px 20px
-      color: #fff
       display: flex
       align-items: center
     /* Aquí tus estilos existentes para el botón */
@@ -137,4 +135,24 @@ export default {
 
   .footer p
     font-size: 14px
+
+
+.iniciar-btn-container
+  .iniciar-btn-text
+    transition: all 0.4s ease-in-out
+    background-color: #C252F0 !important
+    color: #391847!important
+  .icon
+    transition: all 0.4s ease-in-out
+    background-color: #6A2C83 !important
+  &:hover
+    .iniciar-btn-text
+      background-color: #6A2C83 !important
+      color: white!important
+    .icon
+      background-color: #C252F0 !important
+      color: #391847!important
+
+.home-main-title
+  color: #E5782C !important
 </style>
