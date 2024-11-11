@@ -145,6 +145,7 @@ export default {
   .icon
     transition: all 0.25s ease-in-out
     background-color: #6A2C83 !important
+    color: $white !important
   &:hover
     .icon
       transform: scale(1.06)
