@@ -9,7 +9,7 @@
           p.pe-xl-3.fs-18px.mb-0(data-aos="fade-up") La gestión del tiempo es un desafío fundamental en la modalidad virtual, donde el estudiante tiene la libertad de organizar sus actividades. Este tema aborda diversas estrategias y herramientas para optimizar el uso del tiempo y gestionar las responsabilidades en un entorno sin supervisión constante.
       .d-none.d-xl-block.col-xl-5.col-xxl-4.mx-auto.mt-4.mt-xl-0
         img.h-100(src='@/assets/curso/unidad1/img-67.png', alt='Texto que describa la imagen')  
-      p.text-bold Importancia de la gestión del tiempo en la modalidad virtual
+      p.text-bold.mt-3 Importancia de la gestión del tiempo en la modalidad virtual
 
     .row.mb-5
       .col-12.col-lg-5.d-none.d-lg-block
@@ -89,8 +89,8 @@
 
     .row.bg-azul-1.bg-full-width.py-4.mb-5
       div.px-5.pb-md-3.py-4.d-flex
-        .col-12.col-xl-7.col-xxl-8.d-flex.pe-4.pe-xl-5.align-items-center.flex-column
-          h2.me-auto Herramientas tecnológicas para la gestión del tiempo
+        .col-12.col-xl-7.col-xxl-8.d-flex.pe-4.pe-xl-5.flex-column
+          h2.mb-4.pb-2 Herramientas tecnológicas para la gestión del tiempo
           p.mb-1.me-auto ¿Sabía que las herramientas tecnológicas pueden mejorar su gestión del tiempo? 
           p.mb-4 Google Calendar y Microsoft Outlook facilitan la programación de eventos y reuniones, mientras que Trello y Toggl ayudan a organizar tareas y hacer un seguimiento del tiempo. Para evitar distracciones, RescueTime y StayFocusd son ideales, y Focus@Will ofrece música para mantener la concentración. 
           p ¡Los invitamos a explorar estas opciones y descubrir cómo pueden optimizar su productividad en el documento Herramientas tecnológicas para la gestión del tiempo!
@@ -147,7 +147,7 @@
               p.text-small ¿Cómo reducir los niveles de procrastinación en el desarrollo de las actividades diarias? ¿Cómo implementar rutinas y estrategias para evitar distracciones y con ello mejorar nuestra productividad a largo plazo? Lo invitamos a leer el PDF Estrategias para combatir la procrastinación, en donde encontrará algunas herramientas que buscan superar el hábito de posponer tareas 
             .col-sm-auto
               a.download-btn.boton.color-acento-contenido.text-white(:href="obtenerLink('/downloads/Anexo_Estrategias_para_combatir_la_procrastinación.pdf')" target="_blank")
-                span Descargar
+                span.text-small Descargar
                 i.fas.fa-arrow-right
 
 </template>

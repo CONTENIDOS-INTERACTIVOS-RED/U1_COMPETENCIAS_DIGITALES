@@ -95,7 +95,7 @@
               p.text-bold.mb-4.text-center Canvas
               p.px-3.text-small.mb-0.d-flex.text-center Se destaca por su diseño moderno e intuitivo, brindando una experiencia de usuario fluida y permitiendo una fácil integración con otras herramientas educativas.
     .row.mb-3
-      h1 Beneficios del uso de LMS
+      h2 Beneficios del uso de LMS
     .row.mb-5
       .col-12.col-xl-8.d-flex.align-items-center.bg-ppal-morado-claro.p-4
         p.mb-0(data-aos="fade-up") El uso de un LMS facilita la organización del proceso de aprendizaje, centralizando el acceso a los materiales, promoviendo una comunicación constante entre estudiantes y docentes, y permitiendo un seguimiento detallado del progreso. Esto se traduce en una experiencia educativa más eficiente y adaptada a las necesidades del aprendizaje moderno.
@@ -128,7 +128,7 @@
                 p.fs-18px.text-bold.text-center WhatsApp y Telegram 
                 p.text-small.px-4.text-center.pb-2 Aunque son más informales, se utilizan para la comunicación rápida en grupos de trabajo o estudio, siendo útiles para intercambios ágiles y coordinar actividades (Martínez, 2021).
     .row
-      h1 Herramientas de gestión de proyectos
+      h2 Herramientas de gestión de proyectos
       p Las herramientas de gestión de proyectos ayudan a organizar el trabajo en equipo, asignar tareas y mantener un control de los plazos:
 
   
@@ -161,7 +161,7 @@
     .row.bg-fondo-4.bg-full-width
       div.px-5.pb-md-3.py-4
         .row.mb-4
-          h1 Aplicaciones de almacenamiento en la nube
+          h2 Aplicaciones de almacenamiento en la nube
           p El almacenamiento en la nube facilita la colaboración en tiempo real, permitiendo compartir archivos sin necesidad de enviarlos por correo.
           p.mb-0.text-bold A continuación se describen algunas de las herramientas de almacenamiento en la nube más utilizadas en la actualidad:
         .row.mb-5.justify-content-center.align-items-stretch
@@ -274,14 +274,14 @@
               p.text-bold.mb-4.text-center Quizizz
               p.px-3.text-small.mb-0.d-flex.text-center Similar a Kahoot, ofrece quizzes interactivos que los estudiantes pueden realizar a su propio ritmo, proporcionando retroalimentación instantánea para mejorar la comprensión de los temas.
     .row.mb-5
-      h1 Seguimiento del rendimiento
+      h2 Seguimiento del rendimiento
       .col-12.col-xl-8.d-flex.align-items-center.bg-ppal-claro.p-4
         p.mb-0(data-aos="fade-up") Las plataformas de LMS, como <strong>Moodle y Blackboard</strong>, incluyen herramientas avanzadas para crear evaluaciones personalizadas. Además, permiten un análisis detallado del rendimiento de los estudiantes, ofreciendo informes sobre su progreso y ayudando a los docentes a identificar áreas de mejora.
       .d-none.d-xl-block.col-4.px-0
         img.h-100(src='@/assets/curso/unidad1/img-61.png', alt='Texto que describa la imagen')
 
     .row.mb-5
-      h1 Evaluaciones colaborativas
+      h2 Evaluaciones colaborativas
       .d-none.d-xl-block.col-xl-5.col-xxl-4.mx-auto.mt-4.mt-xl-0
         img.h-100(src='@/assets/curso/unidad1/img-62.png', alt='Texto que describa la imagen')  
       .col-12.col-xl-7.col-xxl-8.d-flex.align-items-center.flex-column
@@ -293,7 +293,7 @@
     .row.bg-azul-1.bg-full-width.py-4
       div.px-5.pb-md-3.py-4.d-flex
         .col-12.col-xl-7.col-xxl-8.d-flex.pe-4.pe-xl-5.align-items-center.flex-column
-          h2 Aspectos éticos y de seguridad en el uso de herramientas virtuales
+          h2.mb-4.pb-2 Aspectos éticos y de seguridad en el uso de herramientas virtuales
           p.mb-1 ¿Sabía que el uso de herramientas virtuales requiere atención a la ética y la seguridad? Proteger la privacidad, elegir plataformas seguras y usar contraseñas robustas es fundamental para evitar accesos no autorizados. Además, la ética digital, como respetar los derechos de autor y mantener la honestidad académica, garantiza un ambiente de aprendizaje respetuoso.
           p La seguridad en herramientas colaborativas también es clave, empleando medidas como cifrado de datos y autenticación de dos factores. ¡Los invitamos a profundizar en el documento Aspectos éticos y de seguridad en el uso de herramientas virtuales,  y descubrir cómo estas prácticas pueden mejorar su experiencia digital!
           a.mt-4.d-flex.me-auto.bg-white.box-shadow.cursor-pointer(style="width: 340px" :href="obtenerLink('/downloads/Anexo_Aspectos_eticos_y_de_seguridad_en_el _uso_de _herramientas _virtuales.pdf')" target="_blank")

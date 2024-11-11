@@ -9,7 +9,7 @@
         p.mb-0(data-aos="fade-up") El aprendizaje en línea ha revolucionado el acceso a la educación en el siglo XXI. Se define como el uso de tecnologías digitales e internet para impartir conocimientos y habilidades, permitiendo a los estudiantes superar barreras geográficas y temporales. Aunque este concepto no es nuevo, sus raíces se remontan a finales del siglo XIX con los cursos por correspondencia. Sin embargo, la verdadera transformación llegó con la informática y el internet en la segunda mitad del siglo XX. A partir de la década de 1990, con la creación de los primeros entornos virtuales de aprendizaje, el e-learning se consolidó y se diversificó. Como menciona Torres Quiñones (2015), "el aprendizaje a distancia ha evolucionado significativamente, desde los cursos por correspondencia del siglo XIX hasta la modalidad de e-learning consolidada en la década de 1990".
 
     .row.mb-5.justify-content-center.align-items-stretch
-      h1.mb-5 Impacto del <em>e-learning</em> en la educación contemporánea
+      h2.mb-5 Impacto del <em>e-learning</em> en la educación contemporánea
       p.mb-4.pb-2 En la actualidad, el e-learning es fundamental tanto en la educación formal como en la informal. Universidades, empresas y organizaciones no gubernamentales lo han adoptado para ofrecer programas académicos, capacitaciones y formaciones corporativas. Plataformas como <strong>Coursera, edX</strong> y <strong>Udemy</strong> han democratizado el conocimiento, proporcionando acceso a cursos de alta calidad para millones de personas en todo el mundo.
 
       .col-10.col-md-8.col-lg-6.col-xl-4.mb-4.mb-xl-0
@@ -24,7 +24,7 @@
           img.mx-auto(src='@/assets/curso/unidad1/img-12.png', style="width: 187px")
 
     .row.mb-4.pb-2
-      h1 Flexibilidad y personalización: las claves del éxito del <em>e-learning</em>
+      h2 Flexibilidad y personalización: las claves del éxito del <em>e-learning</em>
 
     .row.mb-5
       .col-12.col-xl-8.d-flex.align-items-center.bg-ppal-amarillo.p-4
