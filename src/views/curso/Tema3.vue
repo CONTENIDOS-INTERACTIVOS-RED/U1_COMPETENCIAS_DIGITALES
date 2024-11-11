@@ -22,9 +22,12 @@
             p Una organización adecuada del tiempo no solo mejora el rendimiento académico o profesional, sino que también ayuda a reducir el estrés y aumentar la motivación. Planificar de forma efectiva las actividades permite equilibrar las responsabilidades laborales y académicas con la vida personal (Ramos, 2014).
           .div(titulo="Consecuencias de una mala gestión del tiempo")
             p La falta de un manejo adecuado del tiempo en entornos virtuales puede resultar en baja productividad, retrasos, pérdida de oportunidades y aumento del estrés. La acumulación de trabajo pendiente afecta negativamente la calidad del aprendizaje y el desempeño, generando desmotivación.
-
-    #t_3_1.titulo-segundo.color-secundario
-      h1.mb-4 3.1 Principios fundamentales de la gestión del tiempo
+    
+    #t_3_1.titulo-segundo
+      div.d-flex
+        span.me-3 3.1  
+        h2 Principios fundamentales de la gestión del tiempo
+    
     p.mb-4 Para gestionar el tiempo de manera efectiva, es necesario aplicar ciertos principios clave, como el establecimiento de prioridades, la técnica Pomodoro y la Ley de Pareto (García, 2019).
     
     .row.mb-5
@@ -55,8 +58,11 @@
               p Este principio indica que el 80% de los resultados proviene del 20% del esfuerzo. Identificar y centrarse en las actividades que generan los mayores beneficios es esencial para aumentar la eficiencia y evitar perder tiempo en tareas de menor relevancia.
       p Estas estrategias permiten a los estudiantes y profesionales en entornos virtuales mejorar la gestión de su tiempo, adaptándose a la flexibilidad de la modalidad y asegurando un desempeño equilibrado y productivo.
     
-    #t_3_2.titulo-segundo.color-secundario
-      h1.mb-4 3.2 Planificación y organización de tareas en entornos virtuales
+    #t_3_2.titulo-segundo
+      div.d-flex
+        span.me-3 3.2  
+        h2 Planificación y organización de tareas en entornos virtuales
+    
     p.mb-4.pb-2 La planificación es el cimiento fundamental para una buena gestión del tiempo. En un entorno virtual, esta planificación debe ser aún más estructurada para evitar la dispersión y mantener el enfoque. Herramientas como <strong>Todoist y Microsoft To Do</strong> permiten organizar listas de tareas con plazos de entrega, facilitando el seguimiento de los compromisos y objetivos (Bustinduy, 2015).
 
     .row.position-relative.py-4.bg-fondo-1.bg-full-width.mb-5.pb-2
@@ -103,8 +109,10 @@
 
     p.mb-5 Estas herramientas digitales facilitan la organización, el seguimiento de las actividades y la eliminación de distracciones, contribuyendo a una gestión del tiempo más eficiente y productiva en entornos virtuales.
 
-    #t_3_3.titulo-segundo.color-secundario
-      h1 3.3 Equilibrio entre la vida personal y profesional/estudiantil en la modalidad virtual
+    #t_3_3.titulo-segundo
+      div.d-flex
+        span.me-3 3.3  
+        h2 Equilibrio entre la vida personal y profesional/estudiantil en la modalidad virtual
 
     p.mb-5 Mantener un equilibrio saludable entre la vida personal y las responsabilidades académicas o laborales es esencial para prevenir el agotamiento en entornos virtuales. A continuación, se detallan algunas estrategias clave para lograr este equilibrio:
 
@@ -123,8 +131,10 @@
     .row.mb-5
       p Estas estrategias contribuyen a un manejo más saludable de la vida académica y laboral en entornos virtuales, promoviendo el bienestar integral y la prevención del agotamiento.
 
-    #t_3_4.titulo-segundo.color-secundario
-      h1 3.4 Estrategias para evitar la procrastinación
+    #t_3_4.titulo-segundo
+      div.d-flex
+        span.me-3 3.4  
+        h2 Estrategias para evitar la procrastinación
 
     p.mb-4 La procrastinación es uno de los principales obstáculos para la productividad en entornos virtuales. A continuación, se presentan algunas estrategias para combatirla de manera correcta: 
 

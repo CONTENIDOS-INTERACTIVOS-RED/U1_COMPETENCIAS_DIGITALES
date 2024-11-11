@@ -32,8 +32,11 @@
       .d-none.d-xl-block.col-4.px-0
         img.h-100(src='@/assets/curso/unidad1/img-13.png', alt='Texto que describa la imagen')
 
-    #t_1_1.titulo-segundo.color-secundario
-      h1 1.1  Características del aprendizaje en línea
+    #t_1_1.titulo-segundo
+      div.d-flex
+        span.me-3 1.1  
+        h2 Características del aprendizaje en línea
+
     p.mb-4 El <em>e-learning</em> se caracteriza por su adaptabilidad y la capacidad de integrar recursos multimedia y herramientas tecnológicas. A continuación, se describen las principales características de este modelo educativo:
 
     .row.position-relative.mb-5.py-4.bg-fondo-1.bg-full-width 
@@ -75,8 +78,11 @@
               figure
                 img(src='@/assets/curso/unidad1/img-18.svg', alt='Texto que describa la imagen')
 
-    #t_1_2.titulo-segundo.color-secundario
-      h1 1.2  Modalidades del aprendizaje en línea
+    #t_1_2.titulo-segundo
+      div.d-flex
+        span.me-3 1.2  
+        h2 Modalidades del aprendizaje en línea
+
     p.mb-4 Existen diversas formas de estructurar el aprendizaje en línea, cada una con ventajas y desventajas particulares. A continuación, se describen las modalidades más comunes:
 
     .row.mb-5
@@ -114,8 +120,11 @@
               h4 MOOCS
               p Los Massive Open Online Courses (MOOCS) son cursos en línea abiertos a un gran número de participantes. Plataformas como Coursera y edX han popularizado esta modalidad, permitiendo que miles de personas accedan a cursos ofrecidos por universidades y expertos de renombre. Cenich (2006) afirma que "esta modalidad democratiza la educación a nivel global".
 
-    #t_1_3.titulo-segundo.color-secundario
-      h1 1.3 Interacción en entornos de aprendizaje en línea
+    #t_1_3.titulo-segundo
+      div.d-flex
+        span.me-3 1.3  
+        h2 Interacción en entornos de aprendizaje en línea
+    
     p.mb-5 Uno de los principales desafíos del aprendizaje en línea es mantener una interacción significativa entre los participantes. A continuación, se describen las formas más relevantes de interacción en los entornos de e-learning:
     
     .row.mb-5.mb-4
@@ -130,8 +139,11 @@
       .col-12.col-lg-5.d-none.d-lg-block
         img.-mt-18px(src='@/assets/curso/unidad1/img-23.png', alt='Texto que describa la imagen')
     
-    #t_1_4.titulo-segundo.color-secundario
-      h1 1.4 Tecnologías para el aprendizaje en línea
+    #t_1_4.titulo-segundo
+      div.d-flex
+        span.me-3 1.4  
+        h2 Tecnologías para el aprendizaje en línea
+
     p.mb-5 El éxito del aprendizaje en línea depende en gran medida de las plataformas y herramientas tecnológicas disponibles. Entre las tecnologías más utilizadas, se destacan:
 
     .row.mb-5.mb-4
@@ -149,8 +161,11 @@
     .row.bg-fondo-3.bg-full-width
       div.px-5.pb-md-3.py-4
 
-        #t_1_5.titulo-segundo.color-secundario    
-          h1 1.5 Ventajas del aprendizaje en línea
+        #t_1_5.titulo-segundo
+          div.d-flex
+            span.me-3 1.5  
+            h2 Ventajas del aprendizaje en línea
+
         p.mb-4 El aprendizaje en línea ofrece múltiples ventajas que lo convierten en una opción atractiva para diversos tipos de estudiantes y contextos educativos:
 
         .row.mb-5
@@ -180,9 +195,11 @@
                   h4 Acceso a nuevos contenidos
                   p Las plataformas en línea facilitan la constante actualización de los materiales, garantizando que los estudiantes accedan a la información más reciente y relevante en sus áreas de estudio. Esto asegura que los aprendizajes se mantengan actualizados y alineados con las tendencias y avances del campo educativo.
 
-
-    #t_1_6.titulo-segundo.color-secundario    
-      h1 1.6 Desafíos del aprendizaje en línea
+    #t_1_6.titulo-segundo
+      div.d-flex
+        span.me-3 1.6  
+        h2 Desafíos del aprendizaje en línea
+    
     p.mb-4 A pesar de sus numerosas ventajas, el aprendizaje en línea presenta desafíos que deben abordarse para asegurar su eficacia:
 
     .row.bg-fondo-2.bg-full-width
@@ -204,9 +221,11 @@
               p.text-bold.mb-4.text-center Brecha digital
               p.px-1.text-small.mb-0.d-flex.text-center No todos los estudiantes cuentan con una conexión a internet de calidad o con dispositivos adecuados para participar en el aprendizaje en línea. Esta desigualdad tecnológica puede limitar el acceso equitativo a la educación, acentuando las diferencias socioeconómicas y limitando la inclusión de todos los estudiantes en el entorno virtual. 
 
-        #t_1_7.titulo-segundo.color-secundario    
-          h1 1.7 Tendencias actuales y futuras en el aprendizaje en línea
-    
+        #t_1_7.titulo-segundo
+          div.d-flex
+            span.me-3 1.7  
+            h2 Tendencias actuales y futuras en el aprendizaje en línea
+
     p.mb-4 El futuro del aprendizaje en línea se caracteriza por la incorporación de nuevas tecnologías y enfoques innovadores que buscan enriquecer la experiencia educativa (Quijada, 2014). Entre estas tendencias, destacan:
     
     .row.position-relative.py-4.bg-fondo-1.bg-full-width 

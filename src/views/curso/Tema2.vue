@@ -51,9 +51,11 @@
       
     .row.bg-fondo-3.bg-full-width
       div.px-5.pb-md-3.py-4
-        #t_2_1.titulo-segundo.color-secundario
-          h1.mb-4 2.1 Plataformas de gestión del aprendizaje (LMS)
-        
+
+        #t_2_1.titulo-segundo
+          div.d-flex
+            span.me-3 2.1  
+            h2 Plataformas de gestión del aprendizaje (LMS)
         
         p.mb-4 Un <em>Learning Management System</em> (LMS) es una plataforma que organiza y gestiona los contenidos educativos de manera centralizada, facilitando tanto el acceso a los materiales como la gestión de los estudiantes. Según O'Driscoll y Kaye (2019), "los LMS son esenciales para la modernización de la educación, brindando acceso a contenido educativo de manera eficiente y organizada".
         p.text-bold Las características de un LMS son: 
@@ -104,8 +106,12 @@
     
     .row.bg-fondo-3.bg-full-width
       div.px-5.pb-md-3.py-4
-        #t_2_2.titulo-segundo.color-secundario
-          h1.mb-4 2.2 Herramientas de comunicación y colaboración
+        
+        #t_2_2.titulo-segundo
+          div.d-flex
+            span.me-3 2.2  
+            h2 Herramientas de comunicación y colaboración
+
         p La comunicación constante y efectiva es esencial en cualquier entorno virtual. Para facilitar la interacción y el trabajo colaborativo, existen diversas herramientas diseñadas específicamente para este propósito:
         p.text-bold.mb-4.pb-2 Las aplicaciones de mensajería instantánea son:
         .row.mb-5
@@ -183,8 +189,11 @@
     .row.mb-5
       p Estas herramientas son fundamentales para mantener una comunicación efectiva y organizar el trabajo en entornos virtuales, permitiendo una colaboración fluida y eficiente.
 
-    #t_23.titulo-segundo.color-secundario
-      h1.mb-4 2.3 Herramientas para la creación de contenido digital
+    #t_2_3.titulo-segundo
+      div.d-flex
+        span.me-3 2.3
+        h2 Herramientas para la creación de contenido digital
+    
     p La creación de contenido digital es fundamental para estudiantes, docentes y profesionales que necesitan transmitir ideas y conocimientos de manera clara y visual. A continuación, se destacan algunas de las herramientas más útiles en este ámbito.
     p.text-bold.mb-4.pb-2 Las herramientas de edición de documentos son: 
 
@@ -245,8 +254,11 @@
 
     .row.bg-fondo-3.bg-full-width
       div.px-5.pb-md-3.py-4
-        #t_2_4.titulo-segundo.color-secundario
-          h1.mb-4 2.4 Herramientas de evaluación en línea
+
+        #t_2_4.titulo-segundo
+          div.d-flex
+            span.me-3 2.4  
+            h2 Herramientas de evaluación en línea
 
         .row.mb-4
           .col-12.col-xl-7.col-xxl-8.d-flex.align-items-center
