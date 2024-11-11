@@ -15,10 +15,10 @@
       TabsC.color-primario
         .tabs-content.border.px-4.p-md-5.py-3(titulo="Características del aprendizaje en línea")
           .row
-            .d-none.d-lg-block.col-md-12.col-lg-5.col-xl-4
+            .d-none.d-lg-block.col-md-12.col-lg-5.col-xl-4(data-aos="fade-right")
               figure
                 img(src='@/assets/curso/unidad1/img-6.png', alt='Texto que describa la imagen')
-            .col-md-12.col-lg-7.col-xl-8.mb-4.mb-md-0
+            .col-md-12.col-lg-7.col-xl-8.mb-4.mb-md-0(data-aos="fade-left")
               h4 Características del aprendizaje en línea
               p.fs-18px(data-aos="fade-up") El aprendizaje en línea se caracteriza por la flexibilidad y la autonomía, permitiendo a los estudiantes acceder a los contenidos desde cualquier lugar y a su propio ritmo. No obstante, esta flexibilidad también exige un alto grado de autodisciplina y organización personal, ya que la ausencia de una supervisión directa puede llevar a la procrastinación. Para aprovechar al máximo esta modalidad, es necesario desarrollar habilidades de autogestión y responsabilidad.
         .tabs-content.border.px-4.p-md-5.py-3(titulo="Microsoft Teams")
@@ -42,7 +42,7 @@
       .d-flex.align-items-center
         div.d-flex.align-items-center.bg-ppal-azul.px-3.py-4
           img.me-4(style="width: 90px" src='@/assets/curso/unidad1/img-9.svg', alt='Texto que describa la imagen')
-          p.fs-18px.pe-xl-3.mb-0 Al completar esta unidad, los estudiantes estarán mejor preparados para enfrentar los retos de la educación virtual, utilizando de manera óptima las herramientas tecnológicas y adoptando estrategias que mejoren la gestión del tiempo y el esfuerzo. ¡Bienvenidos a este camino hacia la autonomía y el éxito en la modalidad virtual!
+          p.fs-18px.pe-xl-3.mb-0(data-aos="fade-left") Al completar esta unidad, los estudiantes estarán mejor preparados para enfrentar los retos de la educación virtual, utilizando de manera óptima las herramientas tecnológicas y adoptando estrategias que mejoren la gestión del tiempo y el esfuerzo. ¡Bienvenidos a este camino hacia la autonomía y el éxito en la modalidad virtual!
 
 </template>
 

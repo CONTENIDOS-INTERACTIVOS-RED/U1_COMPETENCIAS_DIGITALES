@@ -8,25 +8,25 @@
 
         .row.mb-5.justify-content-center.card_hover(data-aos="zoom-in-up")
           p.mb-4.pb-3 Las herramientas de videoconferencia son esenciales en entornos virtuales, ya que permiten la interacción cara a cara entre los participantes, emulando un entorno presencial. Estas herramientas ofrecen diversas funcionalidades que buscan garantizar una experiencia de uso sencilla y eficaz:
-          .col-10.col-sm-9.col-md-6.mb-4
+          .col-10.col-sm-9.col-md-6.mb-4(data-aos="fade-up-right")
             .custom-image-card.d-flex.justify-content-center.p-3.h-100
               img.me-3(src='@/assets/curso/unidad1/img-34.svg', style="width: 68px")
               div
                 p.text-bold.mb-2 Videollamadas grupales 
                 p.mb-0.flex-grow-1.d-flex.flex-row.align-items-center Facilitan la realización de reuniones o clases virtuales con múltiples participantes, promoviendo una interacción directa y dinámica entre ellos.
-          .col-10.col-sm-9.col-md-6.mb-4
+          .col-10.col-sm-9.col-md-6.mb-4(data-aos="fade-up-left")
             .custom-image-card.d-flex.justify-content-center.p-3.h-100
               img.me-3(src='@/assets/curso/unidad1/img-35.svg', style="width: 68px")  
               div
                 p.text-bold.mb-2 Grabación de sesiones
                 p.mb-0.flex-grow-1.d-flex.flex-row.align-items-center Permiten registrar las reuniones para revisarlas posteriormente, lo cual es especialmente útil para estudiantes o empleados que no pueden asistir en tiempo real.
-          .col-10.col-sm-9.col-md-6.mb-4
+          .col-10.col-sm-9.col-md-6.mb-4(data-aos="fade-down-right")
             .custom-image-card.d-flex.justify-content-center.p-3.h-100
               img.me-3(src='@/assets/curso/unidad1/img-36.svg', style="width: 68px")
               div
                 p.text-bold.mb-2 Compartición de pantalla
                 p.mb-0.flex-grow-1.d-flex.flex-row.align-items-center Es una función clave para realizar presentaciones, explicar contenidos o compartir recursos de manera visual con los participantes.
-          .col-10.col-sm-9.col-md-6.mb-4
+          .col-10.col-sm-9.col-md-6.mb-4(data-aos="fade-down-left")
             .custom-image-card.d-flex.justify-content-center.p-3.h-100
               img.me-3(src='@/assets/curso/unidad1/img-37.svg', style="width: 68px")
               div
@@ -37,7 +37,7 @@
     .row.mb-5
       .col-12.col-lg-5.d-none.d-lg-block
         img.-mt-18px(src='@/assets/curso/unidad1/img-38.png', alt='Texto que describa la imagen')
-      .col-12.col-lg-7
+      .col-12.col-lg-7(data-aos="fade-left")
         AcordionA(tipo="b")
           .div(titulo="Zoom")
             p Conocida por su facilidad de uso y versatilidad, permite realizar reuniones con hasta 100 participantes en su versión gratuita.
@@ -81,17 +81,17 @@
 
         .row.mb-5.justify-content-center.align-items-stretch.card_hover
           p.text-bold Los ejemplos de LMS: 
-          .col-10.col-md-8.col-lg-6.col-xl-4.mb-4.mb-xl-0
+          .col-10.col-md-8.col-lg-6.col-xl-4.mb-4.mb-xl-0(data-aos="fade-right")
             .custom-image-card.d-flex.justify-content-center.flex-column.p-4.py-md-5.h-100
               img.mx-auto.mb-4(src='@/assets/curso/unidad1/img-40.png', style="width: 80px")
               p.text-bold.mb-4.text-center Moodle
               p.px-4.text-small.mb-0.d-flex.text-center Plataforma de código abierto muy popular en el ámbito educativo, valorada por su flexibilidad y capacidad de personalización.
-          .col-10.col-md-8.col-lg-6.col-xl-4.mb-4.mb-xl-0
+          .col-10.col-md-8.col-lg-6.col-xl-4.mb-4.mb-xl-0(data-aos="fade-down")
             .custom-image-card.d-flex.justify-content-center.flex-column.p-4.py-md-5.h-100
               img.mx-auto.mb-4(src='@/assets/curso/unidad1/img-41.png', style="width: 80px")
               p.text-bold.mb-4.text-center Blackboard
               p.px-4.text-small.mb-0.d-flex.text-center Ofrece funcionalidades avanzadas para la gestión educativa, incluyendo análisis de datos y herramientas de accesibilidad.
-          .col-10.col-md-8.col-lg-6.col-xl-4
+          .col-10.col-md-8.col-lg-6.col-xl-4(data-aos="fade-left")
             .custom-image-card.d-flex.justify-content-center.flex-column.p-4.py-md-5.h-100
               img.mx-auto.mb-4(src='@/assets/curso/unidad1/img-42.png', style="width: 80px")
               p.text-bold.mb-4.text-center Canvas
@@ -115,19 +115,19 @@
         p La comunicación constante y efectiva es esencial en cualquier entorno virtual. Para facilitar la interacción y el trabajo colaborativo, existen diversas herramientas diseñadas específicamente para este propósito:
         p.text-bold.mb-4.pb-2 Las aplicaciones de mensajería instantánea son:
         .row.mb-5
-          .col-10.col-md-6.col-lg-4.mb-4.mb-md-0.mx-auto
+          .col-10.col-md-6.col-lg-4.mb-4.mb-md-0.mx-auto(data-aos="fade-right")
             div.custom-image-card.rounded-8px.bg-ppal-claro
               img.mb-4(src='@/assets/curso/unidad1/img-44.png', alt='Texto que describa la imagen')
               div.mb-4
                 p.fs-18px.text-bold.text-center Slack
                 p.text-small.px-4.text-center.pb-2 Plataforma de mensajería orientada a equipos, que permite crear canales organizados por temas y proyectos, facilitando una comunicación estructurada y eficiente.
-          .col-10.col-md-6.col-lg-4.mb-4.mb-md-0.mx-auto
+          .col-10.col-md-6.col-lg-4.mb-4.mb-md-0.mx-auto(data-aos="fade-down")
             div.custom-image-card.rounded-8px.bg-ppal-claro
               img.mb-4(src='@/assets/curso/unidad1/img-45.png', alt='Texto que describa la imagen')
               div.mb-4
                 p.fs-18px.text-bold.text-center Microsoft Teams
                 p.text-small.px-4.text-center.pb-2 Además de ser una herramienta de videoconferencia, ofrece mensajería y colaboración en tiempo real, lo que la hace adecuada para la gestión de proyectos y la comunicación constante (López, 2020).
-          .col-10.col-md-6.col-lg-4.mb-4.mb-md-0.mx-auto
+          .col-10.col-md-6.col-lg-4.mb-4.mb-md-0.mx-auto(data-aos="fade-left")
             div.custom-image-card.rounded-8px.bg-ppal-claro
               img.mb-4(src='@/assets/curso/unidad1/img-46.png', alt='Texto que describa la imagen')
               div.mb-4
@@ -142,7 +142,7 @@
           TabsC.color-primario
             .tabs-content.border.px-4.p-md-5.py-3(titulo="Trello")
               .row
-                .d-none.d-lg-block.col-md-12.col-lg-5.col-xl-4
+                .d-none.d-lg-block.col-md-12.col-lg-5.col-xl-4(data-aos="zoom-in")
                   figure
                     img(src='@/assets/curso/unidad1/img-47.png', alt='Texto que describa la imagen')
                 .col-md-12.col-lg-7.col-xl-8.mb-4.mb-md-0
@@ -171,17 +171,17 @@
           p El almacenamiento en la nube facilita la colaboración en tiempo real, permitiendo compartir archivos sin necesidad de enviarlos por correo.
           p.mb-0.text-bold A continuación se describen algunas de las herramientas de almacenamiento en la nube más utilizadas en la actualidad:
         .row.mb-5.justify-content-center.align-items-stretch
-          .col-10.col-md-8.col-lg-6.col-xl-4.mb-4.mb-xl-0
+          .col-10.col-md-8.col-lg-6.col-xl-4.mb-4.mb-xl-0(data-aos="zoom-in-right")
             .custom-image-card.d-flex.justify-content-center.flex-column.p-4.py-md-5.h-100
               img.mx-auto.mb-4(src='@/assets/curso/unidad1/img-50.png', style="width: 80px")
               p.text-bold.mb-4.text-center Google Drive
               p.px-2.text-small.mb-0.d-flex.text-center Proporciona almacenamiento gratuito y herramientas como Google Docs, Sheets y Slides, que facilitan la creación y edición de documentos en línea.
-          .col-10.col-md-8.col-lg-6.col-xl-4.mb-4.mb-xl-0
+          .col-10.col-md-8.col-lg-6.col-xl-4.mb-4.mb-xl-0(data-aos="zoom-in-up")
             .custom-image-card.d-flex.justify-content-center.flex-column.p-4.py-md-5.h-100
               img.mx-auto.mb-4(src='@/assets/curso/unidad1/img-51.png', style="width: 80px")
               p.text-bold.mb-4.text-center Dropbox
               p.px-2.text-small.mb-0.d-flex.text-center Reconocido por su simplicidad para compartir y sincronizar archivos en diferentes dispositivos, lo que facilita la colaboración.
-          .col-10.col-md-8.col-lg-6.col-xl-4
+          .col-10.col-md-8.col-lg-6.col-xl-4(data-aos="zoom-in-left")
             .custom-image-card.d-flex.justify-content-center.flex-column.p-4.py-md-5.h-100
               img.mx-auto.mb-4(src='@/assets/curso/unidad1/img-52.png', style="width: 80px")
               p.text-bold.mb-4.text-center OneDrive
@@ -198,32 +198,32 @@
     p.text-bold.mb-4.pb-2 Las herramientas de edición de documentos son: 
 
     .row.mb-5.bg-ppal-azul-claro
-      .d-none.d-md-flex.col-6.col-md-4.col-lg-3.p-3.p-md-4.p-lg-5.mx-auto.justify-content-center.border-right-gray
+      .d-none.d-md-flex.col-6.col-md-4.col-lg-3.p-3.p-md-4.p-lg-5.mx-auto.justify-content-center.border-right-gray(data-aos="fade-right")
         img.my-auto(:style="{'max-width': '115px  '}" src='@/assets/curso/unidad1/img-53.png', alt='Texto que describa la imagen')
       .col-12.col-md-8.col-lg-9.d-flex.flex-column.justify-content-center.py-4.py-lg-5.ps-4.ps-lg-5
-        div.d-flex.mb-4
+        div.d-flex.mb-4(data-aos="zoom-in-up")
           img.mt-2.me-2.d-flex.align-self-base(style="width: 15px" src='@/assets/curso/unidad1/arrow-right.svg', alt='Texto que describa la imagen')
           p.mb-0 <strong>Google Docs</strong>. Permite la creación y edición de documentos en tiempo real con varios colaboradores, con la ventaja de guardarse automáticamente en la nube, lo que facilita el acceso desde cualquier dispositivo. 
-        div.d-flex.mb-4
+        div.d-flex.mb-4(data-aos="zoom-in-up")
           img.mt-2.me-2.d-flex.align-self-base(style="width: 15px" src='@/assets/curso/unidad1/arrow-right.svg', alt='Texto que describa la imagen')
           p.mb-0 <strong>Microsoft Word en línea</strong>. Una alternativa a Google Docs que se integra directamente con Office 365 y OneDrive, proporcionando un entorno familiar para los usuarios de Microsoft. 
-        div.d-flex
+        div.d-flex(data-aos="zoom-in-up")
           img.mt-2.me-2.d-flex.align-self-base(style="width: 15px" src='@/assets/curso/unidad1/arrow-right.svg', alt='Texto que describa la imagen')
           p.mb-0 <strong>Notion</strong>. Ofrece una amplia variedad de plantillas y herramientas para organizar ideas, escribir notas, gestionar proyectos y crear bases de datos colaborativas, adaptándose a diferentes necesidades de organización.
     
     p.text-bold Las herramientas para presentaciones y gráficos son: 
     .row.mb-5.bg-ppal-azul-claro
       .col-12.col-md-8.col-lg-9.d-flex.flex-column.justify-content-center.py-4.py-lg-5.ps-4.ps-lg-5
-        div.d-flex.mb-4
+        div.d-flex.mb-4(data-aos="zoom-in-up")
           img.mt-2.me-2.d-flex.align-self-base(style="width: 15px" src='@/assets/curso/unidad1/arrow-right.svg', alt='Texto que describa la imagen')
           p.mb-0 <strong>PowerPoint</strong>. La herramienta más conocida para la creación de presentaciones profesionales, que en su versión en línea también permite la colaboración en tiempo real, ideal para proyectos de equipo. 
-        div.d-flex.mb-4
+        div.d-flex.mb-4(data-aos="zoom-in-up")
           img.mt-2.me-2.d-flex.align-self-base(style="width: 15px" src='@/assets/curso/unidad1/arrow-right.svg', alt='Texto que describa la imagen')
           p.mb-0 <strong>Google Slides</strong>. Alternativa gratuita a PowerPoint que permite la creación de presentaciones colaborativas directamente desde la nube, facilitando el trabajo en conjunto.
-        div.d-flex
+        div.d-flex(data-aos="zoom-in-up")
           img.mt-2.me-2.d-flex.align-self-base(style="width: 15px" src='@/assets/curso/unidad1/arrow-right.svg', alt='Texto que describa la imagen')
           p.mb-0 <strong>Canva</strong>. Una herramienta intuitiva que facilita la creación de presentaciones y gráficos atractivos, sin necesidad de conocimientos avanzados de diseño, lo que la hace accesible para cualquier usuario.
-      .d-none.d-md-flex.col-6.col-md-4.col-lg-3.p-3.p-md-4.p-lg-5.mx-auto.justify-content-center.border-left-gray
+      .d-none.d-md-flex.col-6.col-md-4.col-lg-3.p-3.p-md-4.p-lg-5.mx-auto.justify-content-center.border-left-gray(data-aos="zoom-in-left")
         img.my-auto(:style="{'max-width': '115px  '}" src='@/assets/curso/unidad1/img-54.png', alt='Texto que describa la imagen')
     
     .row.mb-4
@@ -231,22 +231,22 @@
 
     .row.mb-5
       .col-12.col-xl-7.px-0.d-flex.flex-column.h-100
-       .row.mx-0
+       .row.mx-0(data-aos="fade-down")
         .col-4.px-0.border-bottom-app-1
           p.mb-0.text-bold.p-4.bg-ppal.h-100 Loom
         .col-8.d-flex.align-items-center.border-bottom-app-1.bg-oscuro.text-white 
           p.mb-0.p-4.py-xxl-4.mx-xxl-3 Ideal para grabar y compartir videos cortos, siendo una excelente opción para crear explicaciones o tutoriales de forma rápida y sencilla.
-       .row.mx-0
+       .row.mx-0(data-aos="fade-right")
         .col-4.px-0.border-bottom-app-1 
           p.mb-0.text-bold.p-4.bg-ppal.h-100 OBS Studio  
         .col-8.d-flex.align-items-center.border-bottom-app-1.bg-oscuro.text-white  
           p.mb-0.p-4.py-xxl-4.mx-xxl-3 Software gratuito que permite grabar la pantalla y realizar transmisiones en vivo, siendo muy popular entre creadores de contenido y educadores que necesitan compartir sus pantallas en tiempo real.
-       .row.mx-0
+       .row.mx-0(data-aos="fade-up")
         .col-4.px-0
           p.mb-0.text-bold.p-4.bg-ppal.h-100 Camtasia   
         .col-8.d-flex.align-items-center.bg-oscuro.text-white 
           p.mb-0.p-4.py-xxl-4.mx-xxl-3 Un editor de video potente y fácil de usar, diseñado específicamente para la creación de videos educativos y tutoriales, con funciones avanzadas que permiten editar y mejorar la calidad del contenido multimedia.
-      .d-none.d-xl-block.col-5.px-0
+      .d-none.d-xl-block.col-5.px-0(data-aos="fade-left")
         img.h-100(src='@/assets/curso/unidad1/img-55.png', alt='Texto que describa la imagen')
     
     .row.mb-0
@@ -270,17 +270,17 @@
 
           p.mt-4.mt-xl-0 Las herramientas de evaluación automática son: 
         .row.mb-5.justify-content-center
-          .col-10.col-md-8.col-lg-6.col-xl-4.mb-4.mb-xl-0
+          .col-10.col-md-8.col-lg-6.col-xl-4.mb-4.mb-xl-0(data-aos="fade-right")
             .custom-image-card.d-flex.justify-content-center.flex-column.p-4.py-md-5.h-100
               img.mx-auto.mb-4(src='@/assets/curso/unidad1/img-58.png', style="width: 80px")
               p.text-bold.mb-4.text-center Google Forms 
               p.px-4.text-small.mb-0.d-flex.text-center Permite crear encuestas y cuestionarios con corrección automática, siendo una opción práctica para realizar evaluaciones rápidas y recopilar datos de manera eficiente.
-          .col-10.col-md-8.col-lg-6.col-xl-4.mb-4.mb-xl-0
+          .col-10.col-md-8.col-lg-6.col-xl-4.mb-4.mb-xl-0(data-aos="fade-down")
             .custom-image-card.d-flex.justify-content-center.flex-column.p-4.py-md-5.h-100
               img.mx-auto.mb-4(src='@/assets/curso/unidad1/img-59.png', style="width: 80px")
               p.text-bold.mb-4.text-center Kahoot
               p.px-4.text-small.mb-0.d-flex.text-center Plataforma que convierte las evaluaciones en juegos interactivos, incentivando la participación de los estudiantes y haciendo el proceso de aprendizaje más entretenido y dinámico.
-          .col-10.col-md-8.col-lg-6.col-xl-4
+          .col-10.col-md-8.col-lg-6.col-xl-4(data-aos="fade-left")
             .custom-image-card.d-flex.justify-content-center.flex-column.p-4.py-md-5.h-100
               img.mx-auto.mb-4(src='@/assets/curso/unidad1/img-60.png', style="width: 80px")
               p.text-bold.mb-4.text-center Quizizz
@@ -308,11 +308,11 @@
           h2.mb-4.pb-2 Aspectos éticos y de seguridad en el uso de herramientas virtuales
           p.mb-1 ¿Sabía que el uso de herramientas virtuales requiere atención a la ética y la seguridad? Proteger la privacidad, elegir plataformas seguras y usar contraseñas robustas es fundamental para evitar accesos no autorizados. Además, la ética digital, como respetar los derechos de autor y mantener la honestidad académica, garantiza un ambiente de aprendizaje respetuoso.
           p La seguridad en herramientas colaborativas también es clave, empleando medidas como cifrado de datos y autenticación de dos factores. ¡Los invitamos a profundizar en el documento Aspectos éticos y de seguridad en el uso de herramientas virtuales,  y descubrir cómo estas prácticas pueden mejorar su experiencia digital!
-          a.mt-4.d-flex.me-auto.bg-white.box-shadow.cursor-pointer(style="width: 340px" :href="obtenerLink('/downloads/Anexo_Aspectos_eticos_y_de_seguridad_en_el _uso_de _herramientas _virtuales.pdf')" target="_blank")
+          a.mt-4.d-flex.me-auto.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" style="width: 340px" :href="obtenerLink('/downloads/Anexo_Aspectos_eticos_y_de_seguridad_en_el _uso_de _herramientas _virtuales.pdf')" target="_blank")
             img.h-100(style="width: 60px" src='@/assets/curso/unidad1/img-65.svg', alt='Texto que describa la imagen')
             p.text-bold.fs-14px.my-auto.p-2 Anexo. Aspectos éticos y de seguridad en el uso de herramientas virtuales  
 
-        .d-none.d-xl-block.col-xl-5.col-xxl-4.mx-auto.mt-4.mt-xl-0
+        .d-none.d-xl-block.col-xl-5.col-xxl-4.mx-auto.mt-4.mt-xl-0(data-aos="fade-left")
           img.h-100(src='@/assets/curso/unidad1/img-63.png', alt='Texto que describa la imagen')
 
 
