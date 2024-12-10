@@ -20,8 +20,8 @@
           //- Columna derecha con información
           .col-xl-6.info-section
             .content-wrapper.px-lg-4.pt-lg-4.px-xl-4.ps-xl-5.py-xxl-5.text-start
-              p.home-main-title.text-uppercase Competencias Digitales
-              h1.home-title.mb-4.mb-lg-5.text-uppercase Introducción al trabajo en modalidad virtual
+              p.home-main-title.text-uppercase UNIDAD 1
+              h1.home-title.mb-4.mb-lg-5 Introducción al trabajo en modalidad virtual
               p.fs-18px.descripcion.mb-4 La unidad 1, “Competencias Digitales", en el contexto de aprendizaje virtual explora herramientas tecnológicas, gestión del tiempo y habilidades de autogestión. Los estudiantes desarrollan competencias para navegar eficazmente el e-learning, manejando plataformas como Moodle, Zoom y Google Docs, y aplicando estrategias de organización, como la técnica Pomodoro y listas de tareas. La unidad enfatiza flexibilidad, autonomía y manejo de desafíos en entornos digitales.
               
               p.fs-18px.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold ¡Adelante, cada herramienta y estrategia que dominen es un paso más hacia el éxito en el mundo digital!
@@ -60,7 +60,7 @@ export default {
       max-width: 1378px
   .home-title
     font-size: 26px !important
-    font-weight: normal
+    font-weight: bold
     @media (min-width: 992px)
       font-size: 38px !important
   .home-main-title

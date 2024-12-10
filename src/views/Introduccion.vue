@@ -21,13 +21,13 @@
             .col-md-12.col-lg-7.col-xl-8.mb-4.mb-md-0(data-aos="fade-left")
               h4 Características del aprendizaje en línea
               p.fs-18px(data-aos="fade-up") El aprendizaje en línea se caracteriza por la flexibilidad y la autonomía, permitiendo a los estudiantes acceder a los contenidos desde cualquier lugar y a su propio ritmo. No obstante, esta flexibilidad también exige un alto grado de autodisciplina y organización personal, ya que la ausencia de una supervisión directa puede llevar a la procrastinación. Para aprovechar al máximo esta modalidad, es necesario desarrollar habilidades de autogestión y responsabilidad.
-        .tabs-content.border.px-4.p-md-5.py-3(titulo="Microsoft Teams")
+        .tabs-content.border.px-4.p-md-5.py-3(titulo="Herramientas básicas para la participación")
           .row
             .d-none.d-lg-block.col-md-12.col-lg-5.col-xl-4
               figure
                 img(src='@/assets/curso/unidad1/img-7.png', alt='Texto que describa la imagen')
             .col-md-12.col-lg-7.col-xl-8.mb-4.mb-md-0
-              h4 Microsoft Teams
+              h4 Herramientas básicas para la participación
               p.fs-18px En esta unidad, se profundizará en el uso de herramientas fundamentales para la participación en entornos virtuales. Las plataformas de videoconferencia, los sistemas de gestión del aprendizaje (LMS) y las aplicaciones colaborativas son esenciales para la interacción y el trabajo en equipo a distancia. El dominio de estas herramientas facilita una comunicación efectiva, la entrega de tareas y la colaboración en proyectos, aspectos clave para el aprendizaje en línea.
         .tabs-content.border.px-4.p-md-5.py-3(titulo="Gestión del tiempo y organización personal")
           .row

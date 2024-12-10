@@ -1,11 +1,10 @@
 <template lang="pug">
 .curso-main-container.creditos-vista
-  BannerInterno(:titulo="'UNIDAD 1. DERECHO CIVIL, GENERAL PERSONAS'" :subTitulo="'SÍNTESIS'")
+  BannerInterno.text-uppercase(:titulo="'unidad 1. Introducción al trabajo en modalidad virtual'" :subTitulo="'SÍNTESIS'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.fs-18px.mb-4.mb-md-5 La Unidad 1 introduce los fundamentos esenciales del Derecho Civil, una rama del derecho privado que regula las relaciones entre personas bajo un principio de igualdad. Se estudian los conceptos clave, las fuentes del Derecho Civil, y se distingue entre personas naturales y jurídicas, sentando una base sólida para entender su relevancia en la vida cotidiana, en ámbitos como el familiar, contractual y patrimonial. 
-    p.fs-18px.mb-4 Este conocimiento permite al estudiante comprender los principios que rigen el Derecho Civil y aplicar estos conceptos en situaciones prácticas, consolidando una formación jurídica que facilitará su desarrollo profesional en el campo legal.
+    p.fs-18px.mb-4.mb-md-5 En esta unidad 1: Introducción al trabajo en modalidad virtual, se exploran tres temas clave para el éxito en el aprendizaje virtual, alineados con el objetivo de desarrollar competencias digitales y habilidades de autoformación. El aprendizaje en línea ha revolucionado el acceso a la educación, superando limitaciones geográficas y de tiempo mediante el uso de tecnologías digitales. Sin embargo, presenta retos como la gestión eficaz del tiempo y la interacción constante entre estudiantes y docentes.
     figure
-      img(src='@/assets/componentes/sintesis.svg', alt='Texto que describa la imagen')
+      img(src='@/assets/componentes/sintesis.png', alt='Texto que describa la imagen')
     
 
 </template>

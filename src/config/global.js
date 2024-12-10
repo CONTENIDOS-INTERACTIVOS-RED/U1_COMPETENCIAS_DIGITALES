@@ -80,7 +80,7 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2.',
-        titulo: 'Introducción al aprendizaje en línea',
+        titulo: 'Herramientas de videoconferencia',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -145,6 +145,12 @@ export default {
           },
         ],
       },
+      {
+        nombreRuta: 'sintesis',
+        titulo: 'Síntesis',
+        unidad: '',
+        desarrolloContenidos: true,
+      },
     ],
     subMenu: [
       // {
@@ -169,19 +175,9 @@ export default {
         nombreRuta: 'referencias',
       },
       {
-        icono: 'fas fa-file-download',
-        titulo: 'Descargar PDF',
-        download: 'downloads/Unidad 1__Competencias digitales.pdf',
-      },
-      {
         icono: 'fas fa-download',
         titulo: 'Descargar material',
         download: 'downloads/material.zip',
-      },
-      {
-        icono: 'far fa-registered',
-        titulo: 'Síntesis',
-        nombreRuta: 'sintesis',
       },
     ],
   },
@@ -250,92 +246,92 @@ export default {
     {
       termino: 'Asincrónico',
       significado:
-        'Modalidad de aprendizaje en la que los estudiantes no requieren estar conectados al mismo tiempo, permitiendo mayor flexibilidad en sus horarios',
+        'Modalidad de aprendizaje en la que los estudiantes no requieren estar conectados al mismo tiempo, permitiendo mayor flexibilidad en sus horarios.',
     },
     {
       termino: 'Brecha digital',
       significado:
-        'Desigualdad en el acceso a recursos tecnológicos como internet o dispositivos adecuados, lo que limita la participación en el aprendizaje en línea',
+        'Desigualdad en el acceso a recursos tecnológicos como internet o dispositivos adecuados, lo que limita la participación en el aprendizaje en línea.',
     },
     {
       termino: 'e-learning',
       significado:
-        'Modalidad educativa que utiliza tecnologías digitales e internet para impartir conocimientos, eliminando barreras geográficas y temporales, ofreciendo flexibilidad y accesibilidad a los estudiantes',
+        'Modalidad educativa que utiliza tecnologías digitales e internet para impartir conocimientos, eliminando barreras geográficas y temporales, ofreciendo flexibilidad y accesibilidad a los estudiantes.',
     },
     {
       termino: 'Flexibilidad',
       significado:
-        'Capacidad del aprendizaje en línea para permitir a los estudiantes acceder a los contenidos en cualquier momento y desde cualquier lugar',
+        'Capacidad del aprendizaje en línea para permitir a los estudiantes acceder a los contenidos en cualquier momento y desde cualquier lugar.',
     },
     {
       termino: 'Gamificación',
       significado:
-        'Uso de elementos de juego (puntos, recompensas) en el aprendizaje para motivar y enganchar a los estudiantes',
+        'Uso de elementos de juego (puntos, recompensas) en el aprendizaje para motivar y enganchar a los estudiantes.',
     },
     {
       termino: 'Gestión del tiempo',
       significado:
-        'Capacidad para planificar y controlar cómo se dividen las horas de trabajo o estudio para aumentar la eficiencia y productividad',
+        'Capacidad para planificar y controlar cómo se dividen las horas de trabajo o estudio para aumentar la eficiencia y productividad.',
     },
     {
       termino: 'Grabación de sesiones',
       significado:
-        'Funcionalidad de las plataformas de videoconferencia que permite registrar reuniones o clases para su revisión posterior',
+        'Funcionalidad de las plataformas de videoconferencia que permite registrar reuniones o clases para su revisión posterior.',
     },
     {
       termino: 'Google Drive',
       significado:
-        'Plataforma de almacenamiento en la nube que permite compartir archivos y colaborar en tiempo real en documentos, hojas de cálculo y presentaciones',
+        'Plataforma de almacenamiento en la nube que permite compartir archivos y colaborar en tiempo real en documentos, hojas de cálculo y presentaciones.',
     },
     {
       termino: 'Ley de Pareto (80/20)',
       significado:
-        'Principio que afirma que el 80% de los resultados proviene del 20% del esfuerzo, sugiriendo centrarse en las actividades más importantes',
+        'Principio que afirma que el 80% de los resultados proviene del 20% del esfuerzo, sugiriendo centrarse en las actividades más importantes.',
     },
     {
       termino: 'Matriz de Eisenhower',
       significado:
-        'Herramienta para priorizar tareas según su urgencia e importancia, organizándolas en cuatro cuadrantes',
+        'Herramienta para priorizar tareas según su urgencia e importancia, organizándolas en cuatro cuadrantes.',
     },
     {
       termino: 'Picos de productividad',
       significado:
-        'Momentos del día en los que una persona tiene mayor energía y enfoque, lo que permite realizar tareas más demandantes de manera más eficiente',
+        'Momentos del día en los que una persona tiene mayor energía y enfoque, lo que permite realizar tareas más demandantes de manera más eficiente.',
     },
     {
       termino: 'Plataforma LMS',
       significado:
-        'Sistema de gestión del aprendizaje que centraliza la distribución de contenido, la interacción y la evaluación en línea (ej., Moodle, Blackboard)',
+        'Sistema de gestión del aprendizaje que centraliza la distribución de contenido, la interacción y la evaluación en línea (ej., Moodle, Blackboard).',
     },
     {
       termino: 'Procrastinación',
       significado:
-        'Acción de posponer tareas importantes, lo que afecta negativamente la productividad en entornos virtuales',
+        'Acción de posponer tareas importantes, lo que afecta negativamente la productividad en entornos virtuales.',
     },
     {
       termino: 'Técnica del Pomodoro',
       significado:
-        'Método de gestión del tiempo que divide el trabajo en intervalos de 25 minutos, seguidos de breves descansos, para mejorar la concentración',
+        'Método de gestión del tiempo que divide el trabajo en intervalos de 25 minutos, seguidos de breves descansos, para mejorar la concentración.',
     },
     {
       termino: 'Sincrónico',
       significado:
-        'Modalidad de aprendizaje en la que estudiantes y profesores interactúan en tiempo real a través de herramientas como videoconferencias',
+        'Modalidad de aprendizaje en la que estudiantes y profesores interactúan en tiempo real a través de herramientas como videoconferencias.',
     },
     {
       termino: 'Slack',
       significado:
-        'Plataforma de mensajería diseñada para equipos, que facilita la comunicación mediante la creación de canales temáticos y organizados',
+        'Plataforma de mensajería diseñada para equipos, que facilita la comunicación mediante la creación de canales temáticos y organizados.',
     },
     {
       termino: 'Trello',
       significado:
-        'Herramienta de gestión de proyectos basada en el método Kanban, que permite organizar y visualizar tareas mediante tableros',
+        'Herramienta de gestión de proyectos basada en el método Kanban, que permite organizar y visualizar tareas mediante tableros.',
     },
     {
       termino: 'Videoconferencia',
       significado:
-        'Herramienta que permite la interacción en tiempo real entre personas mediante video y audio, simulando una reunión presencial en entornos virtuales',
+        'Herramienta que permite la interacción en tiempo real entre personas mediante video y audio, simulando una reunión presencial en entornos virtuales.',
     },
   ],
   complementario: [

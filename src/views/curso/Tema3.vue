@@ -1,6 +1,6 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno.text-uppercase(:titulo="'unidad 1. Introducción al trabajo en modalidad virtual'" :subTitulo="'3. Diferenciación entre personas naturales y jurídicas'")
+  BannerInterno.text-uppercase(:titulo="'unidad 1. Introducción al trabajo en modalidad virtual'" :subTitulo="'3. Gestión del tiempo y organización personal en la modalidad virtual'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.tema-3
     .row.mb-5
       .col-12.col-xl-7.col-xxl-8.d-flex.align-items-center(data-aos="fade-right")
@@ -154,11 +154,27 @@
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
               p.text-bold.mb-3 Estrategias para combatir la procrastinación
-              p.text-small ¿Cómo reducir los niveles de procrastinación en el desarrollo de las actividades diarias? ¿Cómo implementar rutinas y estrategias para evitar distracciones y con ello mejorar nuestra productividad a largo plazo? Lo invitamos a leer el PDF Estrategias para combatir la procrastinación, en donde encontrará algunas herramientas que buscan superar el hábito de posponer tareas 
+              p.text-small ¿Cómo reducir los niveles de procrastinación en el desarrollo de las actividades diarias? ¿Cómo implementar rutinas y estrategias para evitar distracciones y con ello mejorar nuestra productividad a largo plazo? Lo invitamos a leer el PDF Estrategias para combatir la procrastinación, en donde encontrará algunas herramientas que buscan superar el hábito de posponer tareas. 
             .col-sm-auto(data-aos="zoom-in")
               a.download-btn.boton.color-acento-contenido.text-white(:href="obtenerLink('/downloads/Anexo_Estrategias_para_combatir_la_procrastinación.pdf')" target="_blank")
                 span.text-small Descargar
                 i.fas.fa-arrow-right
+
+    .bg-full-width.border-top-9-azul
+      .px-4.px-md-5.pt-5.pb-0
+        h2 Material complementario
+        .row
+          .col-12.col-md-6.col-lg-8
+            p.text-small
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://youtu.be/0Ct5jyKCLT4?si=r_1cbCZxOkHtAdxm") Educación a distancia Unam (8 de junio de 2023). 4° Sincrónico - Planificación e Implementación de clases que combinan presencialidad y distancia.
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/ereader/tecnologicadeloriente/105611 ") Ramos, P. (2014). Gestión del tiempo y planificación de tareas (2a. ed.).
+          .col-12.col-md-6.col-lg-3
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='Texto que describa la imagen')
 
 </template>
 

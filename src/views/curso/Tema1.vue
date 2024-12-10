@@ -228,7 +228,7 @@
 
     p.mb-4 El futuro del aprendizaje en línea se caracteriza por la incorporación de nuevas tecnologías y enfoques innovadores que buscan enriquecer la experiencia educativa (Quijada, 2014). Entre estas tendencias, destacan:
     
-    .row.position-relative.py-4.bg-fondo-1.bg-full-width 
+    .row.position-relative.py-4.bg-fondo-1.bg-full-width.mb-5
       div.px-4.px-md-5.py-md-3
         SlyderA(tipo="b").bg-white
           .row.p-4.px-md-5.py-lg-5.justify-content-between
@@ -252,6 +252,22 @@
             .d-none.d-lg-block.col-md-6.col-lg-4
               figure
                 img(src='@/assets/curso/unidad1/img-33.png', alt='Texto que describa la imagen')
+
+    .bg-full-width.border-top-9-azul
+      .px-4.px-md-5.pt-5.pb-0
+        h2 Material complementario
+        .row
+          .col-12.col-md-6.col-lg-8
+            p.text-small
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://youtu.be/M-UtWuWGRW0?si=VRP5eyUYQ43IjNT_") INDEE (3 de septiembre de 2024) TEMA 1 Definición y características del aprendizaje colaborativo en línea.
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://dialnet.unirioja.es/") Bautista Pérez, G., Forés Miravalles, A., & Borges Sáiz, F. (2016). Didáctica universitaria en entornos virtuales de enseñanza-aprendizaje.
+          .col-12.col-md-6.col-lg-3
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='Texto que describa la imagen')
 
 
 </template>
