@@ -165,16 +165,18 @@
         h2 Material complementario
         .row
           .col-12.col-md-6.col-lg-8
-            p.text-small
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://www.editorialuoc.com") Bustinduy, I. (2015). La gestión del tiempo. Editorial UOC.
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/ereader/tecnologicadeloriente/105611") Ramos, P. (2014). Gestión del tiempo y planificación de tareas (2a. ed.). Editorial ICB.
             p.d-flex.my-4
               img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
-              a.text-small.text-primary(target="_blank", href="https://youtu.be/0Ct5jyKCLT4?si=r_1cbCZxOkHtAdxm") Educación a distancia Unam (8 de junio de 2023). 4° Sincrónico - Planificación e Implementación de clases que combinan presencialidad y distancia.
-            p.d-flex.my-4
-              img.me-3.mb-auto.mt-1(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/ereader/tecnologicadeloriente/105611 ") Ramos, P. (2014). Gestión del tiempo y planificación de tareas (2a. ed.).
+              a.text-small.text-primary(target="_blank", href="https://youtu.be/0Ct5jyKCLT4") Educación a distancia Unam (2023). 4° Sincrónico - Planificación e Implementación de clases [Vídeo]
           .col-12.col-md-6.col-lg-3
             figure
-              img(src='@/assets/componentes/material-complementario.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/componentes/material-complementario.svg', alt='Imagen de material complementario')
 
 </template>
 

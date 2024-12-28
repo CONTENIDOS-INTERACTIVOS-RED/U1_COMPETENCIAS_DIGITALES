@@ -302,7 +302,7 @@
           p.pe-xl-3.fs-18px.mb-0(data-aos="fade-up") Herramientas como <strong>Google Docs y Microsoft Teams</strong> facilitan la creación de evaluaciones colaborativas, donde los estudiantes pueden trabajar en equipo para resolver problemas y completar tareas. Estas herramientas fomentan la cooperación y el desarrollo de habilidades de trabajo en grupo, esenciales en el aprendizaje en línea.
         p Estas herramientas permiten diversificar los métodos de evaluación en entornos virtuales, asegurando una experiencia de aprendizaje más completa y adaptada a las necesidades de los estudiantes.
 
-    .row.bg-azul-1.bg-full-width.py-4
+    .row.bg-azul-1.bg-full-width.py-4.mb-5
       div.px-5.pb-md-3.py-4.d-flex
         .col-12.col-xl-7.col-xxl-8.d-flex.pe-4.pe-xl-5.align-items-center.flex-column
           h2.mb-4.pb-2 Aspectos éticos y de seguridad en el uso de herramientas virtuales
@@ -320,16 +320,18 @@
         h2 Material complementario
         .row
           .col-12.col-md-6.col-lg-8
-            p.text-small
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://revistas.unimagdalena.edu.co/") Ruiz Ospino, E. A., & Sánchez Fontalvo, I. M. (2019). ¿Qué piensan los profesores universitarios de los estilos de aprendizaje?
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://cat.biblioteca.ua.es/") Torres Quiñones, A. (2015). La construcción de las estrategias de aprendizaje en la formación inicial del profesional.
             p.d-flex.my-4
               img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
-              a.text-small.text-primary(target="_blank", href="https://youtu.be/IQhWuKgiuDw?si=SGdO7MFvoynhXPHs") INDEE (4 de septiembre de 2024) TEMA 2 Técnicas para la participación en debates y discusiones en línea .
-            p.d-flex.my-4
-              img.me-3.mb-auto.mt-1(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a.text-small.text-primary(target="_blank", href="https://cat.biblioteca.ua.es/") Torres Quiñones, A. (2015). La construcción de las estrategias de aprendizaje en la formación inicial del profesional de la educación desde los entornos virtuales de aprendizaje.
+              a.text-small.text-primary(target="_blank", href="https://youtu.be/IQhWuKgiuDw") INDEE (2024). TEMA 2 Técnicas para la participación en debates y discusiones en línea [Vídeo]
           .col-12.col-md-6.col-lg-3
             figure
-              img(src='@/assets/componentes/material-complementario.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/componentes/material-complementario.svg', alt='Imagen de material complementario')
 
 </template>
 
