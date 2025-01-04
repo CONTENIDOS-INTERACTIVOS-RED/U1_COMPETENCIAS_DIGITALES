@@ -18,9 +18,9 @@ export default {
   data: () => ({
     cuestionario: {
       tema: 'Aprendizaje Virtual y Herramientas Digitales',
-      titulo: 'Cuestionario',
+      titulo: 'Ponte a prueba',
       introduccion:
-        '<b>Objetivo:</b> Evaluar el conocimiento sobre estrategias y herramientas para el aprendizaje en línea.',
+        'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
       barajarPreguntas: true,
       preguntas: [
         {
