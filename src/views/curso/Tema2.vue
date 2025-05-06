@@ -308,7 +308,7 @@
           h2.mb-4.pb-2 Aspectos éticos y de seguridad en el uso de herramientas virtuales
           p.mb-1 ¿Sabía que el uso de herramientas virtuales requiere atención a la ética y la seguridad? Proteger la privacidad, elegir plataformas seguras y usar contraseñas robustas es fundamental para evitar accesos no autorizados. Además, la ética digital, como respetar los derechos de autor y mantener la honestidad académica, garantiza un ambiente de aprendizaje respetuoso.
           p La seguridad en herramientas colaborativas también es clave, empleando medidas como cifrado de datos y autenticación de dos factores. ¡Los invitamos a profundizar en el documento Aspectos éticos y de seguridad en el uso de herramientas virtuales,  y descubrir cómo estas prácticas pueden mejorar su experiencia digital!
-          a.mt-4.d-flex.me-auto.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" style="width: 340px" :href="obtenerLink('/downloads/Anexo_Aspectos_eticos_y_de_seguridad_en_el _uso_de _herramientas _virtuales.pdf')" target="_blank")
+          a.mt-4.d-flex.me-auto.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" style="width: 340px" :href="obtenerLink('/downloads/Anexo_Aspectos_eticos_y_de_seguridad_en_el_uso_de _herramientas _virtuales.pdf')" target="_blank")
             img.h-100(style="width: 60px" src='@/assets/curso/unidad1/img-65.svg', alt='Texto que describa la imagen')
             p.text-bold.fs-14px.my-auto.p-2 Anexo. Aspectos éticos y de seguridad en el uso de herramientas virtuales  
 
